@@ -8,3 +8,7 @@ desktop.ini
 .DS_Store
 .vscode
 .git
+
+# Local secrets / Vercel link data
+.env*
+.vercel
