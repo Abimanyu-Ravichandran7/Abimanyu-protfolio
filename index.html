@@ -1,0 +1,1402 @@
+<!doctype html>
+<html lang="en" class="no-js" data-bs-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Abimanyu R — Full Stack Developer &amp; Technical Trainer</title>
+  <meta name="description" content="Abimanyu R is a Full Stack Developer and Technical Trainer from Coimbatore, India, building web applications and teaching Python, JavaScript, React, Node.js, Express.js, Django, MySQL and MongoDB.">
+  <meta name="author" content="Abimanyu R">
+  <meta name="keywords" content="Abimanyu R, Full Stack Developer, Technical Trainer, Software Engineer, Python, Django, JavaScript, React, Node.js, Express.js, MySQL, MongoDB, Coimbatore">
+  <meta name="theme-color" content="#08090B">
+  <meta name="color-scheme" content="dark">
+
+  <!-- Social sharing -->
+  <link rel="canonical" href="https://abimanyu-ravichandran.vercel.app/">
+  <meta property="og:url" content="https://abimanyu-ravichandran.vercel.app/">
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Abimanyu R">
+  <meta property="og:title" content="Abimanyu R — Full Stack Developer &amp; Technical Trainer">
+  <meta property="og:description" content="Building digital experiences. Teaching technology. Creating what's next.">
+  <meta property="og:image" content="https://abimanyu-ravichandran.vercel.app/assets/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Abimanyu R — Full Stack Developer and Technical Trainer">
+  <meta property="profile:first_name" content="Abimanyu">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Abimanyu R — Full Stack Developer &amp; Technical Trainer">
+  <meta name="twitter:description" content="Building digital experiences. Teaching technology. Creating what's next.">
+  <meta name="twitter:image" content="https://abimanyu-ravichandran.vercel.app/assets/images/og-image.jpg">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/images/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" integrity="sha384-XGjxtQfXaH2tnPFa9x+ruJTuLE3Aa6LhHSWRr1XeTyhezb4abCG4ccI5AkVDxqC+" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preload" as="image" type="image/webp" href="assets/images/abimanyu-hero-1000.webp"
+        imagesrcset="assets/images/abimanyu-hero-600.webp 600w, assets/images/abimanyu-hero-1000.webp 1000w"
+        imagesizes="(min-width: 992px) 500px, 92vw" fetchpriority="high">
+
+  <script>document.documentElement.classList.replace('no-js', 'js'); document.documentElement.classList.add('is-loading');</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Abimanyu R",
+    "url": "https://abimanyu-ravichandran.vercel.app/",
+    "jobTitle": ["Full Stack Developer", "Technical Trainer"],
+    "email": "mailto:abimanyuravichandran003@gmail.com",
+    "telephone": "+91 9360810347",
+    "address": { "@type": "PostalAddress", "addressLocality": "Coimbatore", "addressRegion": "Tamil Nadu", "addressCountry": "IN" },
+    "worksFor": { "@type": "Organization", "name": "Qaroo India Private Limited" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Gobi Arts & Science College" },
+    "sameAs": ["https://github.com/Abimanyu-Ravichandran7", "https://www.linkedin.com/in/abimanyu-ravichandran"],
+    "knowsAbout": ["Python", "JavaScript", "React.js", "Next.js", "Node.js", "Express.js", "Django", "Django REST Framework", "REST APIs", "MySQL", "MongoDB", "Technical Training"]
+  }
+  </script>
+</head>
+<body>
+<svg class="sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="mark-ar" viewBox="0 0 64 64"><path fill="currentColor" fill-rule="evenodd" d="M8 48 18 16h6l10 32h-6l-2.2-7h-9.6L14 48Zm9.8-12h6.4L21 25.6Z"/><path fill="#FF6A00" fill-rule="evenodd" d="M36 16h10c6 0 9 4 9 9.5 0 4.5-2.5 7.5-6.5 8.5L56 48h-6.5l-6.9-13.4h-.8V48H36Zm5.8 5v9h3.8c2.4 0 3.8-1.6 3.8-4.5S48 21 45.6 21Z"/></symbol>
+    <symbol id="i-python" viewBox="0 0 128 128"><path d="M49.33 62h29.159C86.606 62 93 55.132 93 46.981V19.183c0-7.912-6.632-13.856-14.555-15.176-5.014-.835-10.195-1.215-15.187-1.191-4.99.023-9.612.448-13.805 1.191C37.098 6.188 35 10.758 35 19.183V30h29v4H23.776c-8.484 0-15.914 5.108-18.237 14.811-2.681 11.12-2.8 17.919 0 29.53C7.614 86.983 12.569 93 21.054 93H31V79.952C31 70.315 39.428 62 49.33 62zm-1.838-39.11c-3.026 0-5.478-2.479-5.478-5.545 0-3.079 2.451-5.581 5.478-5.581 3.015 0 5.479 2.502 5.479 5.581-.001 3.066-2.465 5.545-5.479 5.545zm74.789 25.921C120.183 40.363 116.178 34 107.682 34H97v12.981C97 57.031 88.206 65 78.489 65H49.33C41.342 65 35 72.326 35 80.326v27.8c0 7.91 6.745 12.564 14.462 14.834 9.242 2.717 17.994 3.208 29.051 0C85.862 120.831 93 116.549 93 108.126V97H64v-4h43.682c8.484 0 11.647-5.776 14.599-14.66 3.047-9.145 2.916-17.799 0-29.529zm-41.955 55.606c3.027 0 5.479 2.479 5.479 5.547 0 3.076-2.451 5.579-5.479 5.579-3.015 0-5.478-2.502-5.478-5.579 0-3.068 2.463-5.547 5.478-5.547z"/></symbol>
+    <symbol id="i-javascript" viewBox="0 0 128 128"><path d="M2 1v125h125V1H2zm66.119 106.513c-1.845 3.749-5.367 6.212-9.448 7.401-6.271 1.44-12.269.619-16.731-2.059-2.986-1.832-5.318-4.652-6.901-7.901l9.52-5.83c.083.035.333.487.667 1.071 1.214 2.034 2.261 3.474 4.319 4.485 2.022.69 6.461 1.131 8.175-2.427 1.047-1.81.714-7.628.714-14.065C58.433 78.073 58.48 68 58.48 58h11.709c0 11 .06 21.418 0 32.152.025 6.58.596 12.446-2.07 17.361zm48.574-3.308c-4.07 13.922-26.762 14.374-35.83 5.176-1.916-2.165-3.117-3.296-4.26-5.795 4.819-2.772 4.819-2.772 9.508-5.485 2.547 3.915 4.902 6.068 9.139 6.949 5.748.702 11.531-1.273 10.234-7.378-1.333-4.986-11.77-6.199-18.873-11.531-7.211-4.843-8.901-16.611-2.975-23.335 1.975-2.487 5.343-4.343 8.877-5.235l3.688-.477c7.081-.143 11.507 1.727 14.756 5.355.904.916 1.642 1.904 3.022 4.045-3.772 2.404-3.76 2.381-9.163 5.879-1.154-2.486-3.069-4.046-5.093-4.724-3.142-.952-7.104.083-7.926 3.403-.285 1.023-.226 1.975.227 3.665 1.273 2.903 5.545 4.165 9.377 5.926 11.031 4.474 14.756 9.271 15.672 14.981.882 4.916-.213 8.105-.38 8.581z"/></symbol>
+    <symbol id="i-react" viewBox="0 0 128 128"><g><circle cx="64" cy="64" r="11.4"/><path d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3C8.2 50 1.4 56.6 1.4 64s6.9 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8zM92.5 14.7c4.1 2.4 5.5 9.8 3.8 20.3-.3 2.1-.8 4.3-1.4 6.6-5.2-1.2-10.7-2-16.5-2.5-3.4-4.8-6.9-9.1-10.4-13 7.4-7.3 14.9-12.3 21-12.3 1.3 0 2.5.3 3.5.9zM81.3 74c-1.8 3.2-3.9 6.4-6.1 9.6-3.7.3-7.4.4-11.2.4-3.9 0-7.6-.1-11.2-.4-2.2-3.2-4.2-6.4-6-9.6-1.9-3.3-3.7-6.7-5.3-10 1.6-3.3 3.4-6.7 5.3-10 1.8-3.2 3.9-6.4 6.1-9.6 3.7-.3 7.4-.4 11.2-.4 3.9 0 7.6.1 11.2.4 2.2 3.2 4.2 6.4 6 9.6 1.9 3.3 3.7 6.7 5.3 10-1.7 3.3-3.4 6.6-5.3 10zm8.3-3.3c1.5 3.5 2.7 6.9 3.8 10.3-3.4.8-7 1.4-10.8 1.9 1.2-1.9 2.5-3.9 3.6-6 1.2-2.1 2.3-4.2 3.4-6.2zM64 97.8c-2.4-2.6-4.7-5.4-6.9-8.3 2.3.1 4.6.2 6.9.2 2.3 0 4.6-.1 6.9-.2-2.2 2.9-4.5 5.7-6.9 8.3zm-18.6-15c-3.8-.5-7.4-1.1-10.8-1.9 1.1-3.3 2.3-6.8 3.8-10.3 1.1 2 2.2 4.1 3.4 6.1 1.2 2.2 2.4 4.1 3.6 6.1zm-7-25.5c-1.5-3.5-2.7-6.9-3.8-10.3 3.4-.8 7-1.4 10.8-1.9-1.2 1.9-2.5 3.9-3.6 6-1.2 2.1-2.3 4.2-3.4 6.2zM64 30.2c2.4 2.6 4.7 5.4 6.9 8.3-2.3-.1-4.6-.2-6.9-.2-2.3 0-4.6.1-6.9.2 2.2-2.9 4.5-5.7 6.9-8.3zm22.2 21l-3.6-6c3.8.5 7.4 1.1 10.8 1.9-1.1 3.3-2.3 6.8-3.8 10.3-1.1-2.1-2.2-4.2-3.4-6.2zM31.7 35c-1.7-10.5-.3-17.9 3.8-20.3 1-.6 2.2-.9 3.5-.9 6 0 13.5 4.9 21 12.3-3.5 3.8-7 8.2-10.4 13-5.8.5-11.3 1.4-16.5 2.5-.6-2.3-1-4.5-1.4-6.6zM7 64c0-4.7 5.7-9.7 15.7-13.4 2-.8 4.2-1.5 6.4-2.1 1.6 5 3.6 10.3 6 15.6-2.4 5.3-4.5 10.5-6 15.5C15.3 75.6 7 69.6 7 64zm28.5 49.3c-4.1-2.4-5.5-9.8-3.8-20.3.3-2.1.8-4.3 1.4-6.6 5.2 1.2 10.7 2 16.5 2.5 3.4 4.8 6.9 9.1 10.4 13-7.4 7.3-14.9 12.3-21 12.3-1.3 0-2.5-.3-3.5-.9zM96.3 93c1.7 10.5.3 17.9-3.8 20.3-1 .6-2.2.9-3.5.9-6 0-13.5-4.9-21-12.3 3.5-3.8 7-8.2 10.4-13 5.8-.5 11.3-1.4 16.5-2.5.6 2.3 1 4.5 1.4 6.6zm9-15.6c-2 .8-4.2 1.5-6.4 2.1-1.6-5-3.6-10.3-6-15.6 2.4-5.3 4.5-10.5 6-15.5 13.8 4 22.1 10 22.1 15.6 0 4.7-5.8 9.7-15.7 13.4z"/></g></symbol>
+    <symbol id="i-nextjs" viewBox="0 0 128 128"><path d="M64 0A64 64 0 0 0 0 64a64 64 0 0 0 64 64 64 64 0 0 0 35.508-10.838L47.014 49.34v40.238H38.4V38.4h10.768l57.125 73.584A64 64 0 0 0 128 64 64 64 0 0 0 64 0Zm17.777 38.4h8.534v48.776L81.777 75.97Zm24.18 73.92-.111.096a64 64 0 0 0 .111-.096z"/></symbol>
+    <symbol id="i-nodejs" viewBox="0 0 128 128"><path d="M63.999 0a5.617 5.617 0 0 0-2.789.744L11.445 29.646 28.852 61.58 64.592.053A8.177 8.177 0 0 0 64.003 0Zm2.316.605v.002l35.194 60.577 16.545-30.449a5.483 5.483 0 0 0-1.028-.817L91.38 15.024 66.7.754h-.007c-.12-.061-.252-.099-.378-.15Zm-1.024.248L29.417 62.616l35.579 65.278c.1-.02.198-.023.297-.05l35.653-65.624ZM10.586 30.176c-1.502 1.031-2.35 2.752-2.35 4.595v58.478c0 .93.254 1.838.684 2.645l19.34-33.293Zm108.161 1.4-16.643 30.629 17.66 30.398V34.77c0-1.15-.382-2.265-1.017-3.195zm-17.204 31.667-34.808 64.062.055-.028 50.243-29.183.004-.002c1.402-.793 2.3-2.155 2.604-3.693zm-72.718.394L9.545 96.832c.406.5.885.936 1.43 1.266l.001.004 49.702 28.866.53.305.006.002h.002c.257.151.528.266.798.372.144.054.288.104.433.146.125.037.251.062.376.089.242.051.483.088.727.108.118.01.237.01.355.01z"/></symbol>
+    <symbol id="i-express" viewBox="0 0 128 128"><path d="M126.67 98.44c-4.56 1.16-7.38.05-9.91-3.75-5.68-8.51-11.95-16.63-18-24.9-.78-1.07-1.59-2.12-2.6-3.45C89 76 81.85 85.2 75.14 94.77c-2.4 3.42-4.92 4.91-9.4 3.7l26.92-36.13L67.6 29.71c4.31-.84 7.29-.41 9.93 3.45 5.83 8.52 12.26 16.63 18.67 25.21 6.45-8.55 12.8-16.67 18.8-25.11 2.41-3.42 5-4.72 9.33-3.46-3.28 4.35-6.49 8.63-9.72 12.88-4.36 5.73-8.64 11.53-13.16 17.14-1.61 2-1.35 3.3.09 5.19C109.9 76 118.16 87.1 126.67 98.44zM1.33 61.74c.72-3.61 1.2-7.29 2.2-10.83 6-21.43 30.6-30.34 47.5-17.06C60.93 41.64 63.39 52.62 62.9 65H7.1c-.84 22.21 15.15 35.62 35.53 28.78 7.15-2.4 11.36-8 13.47-15 1.07-3.51 2.84-4.06 6.14-3.06-1.69 8.76-5.52 16.08-13.52 20.66-12 6.86-29.13 4.64-38.14-4.89C5.26 85.89 3 78.92 2 71.39c-.15-1.2-.46-2.38-.7-3.57q.03-3.04.03-6.08zm5.87-1.49h50.43c-.33-16.06-10.33-27.47-24-27.57-15-.12-25.78 11.02-26.43 27.57z"/></symbol>
+    <symbol id="i-django" viewBox="0 0 128 128"><path d="M59.448 0h20.93v96.88c-10.737 2.04-18.62 2.855-27.181 2.855-25.551-.001-38.87-11.551-38.87-33.705 0-21.338 14.135-35.2 36.015-35.2 3.398 0 5.98.272 9.106 1.087zm0 48.765c-2.446-.815-4.485-1.086-7.067-1.086-10.6 0-16.717 6.523-16.717 17.939 0 11.145 5.845 17.26 16.582 17.26 2.309 0 4.212-.136 7.202-.542z"/><path d="M113.672 32.321V80.84c0 16.717-1.224 24.735-4.893 31.666-3.398 6.661-7.883 10.873-17.124 15.494l-19.435-9.241c9.242-4.35 13.726-8.153 16.58-14 2.99-5.979 3.943-12.91 3.943-31.122V32.321zM92.742.111h20.93v21.474h-20.93z"/></symbol>
+    <symbol id="i-mysql" viewBox="0 0 128 128"><path d="M117.688 98.242c-6.973-.191-12.297.461-16.852 2.379-1.293.547-3.355.559-3.566 2.18.711.746.82 1.859 1.387 2.777 1.086 1.754 2.922 4.113 4.559 5.352 1.789 1.348 3.633 2.793 5.551 3.961 3.414 2.082 7.223 3.27 10.504 5.352 1.938 1.23 3.859 2.777 5.75 4.164.934.684 1.563 1.75 2.773 2.18v-.195c-.637-.812-.801-1.93-1.387-2.777l-2.578-2.578c-2.52-3.344-5.719-6.281-9.117-8.719-2.711-1.949-8.781-4.578-9.91-7.73l-.199-.199c1.922-.219 4.172-.914 5.949-1.391 2.98-.797 5.645-.59 8.719-1.387l4.164-1.187v-.793c-1.555-1.594-2.664-3.707-4.359-5.152-4.441-3.781-9.285-7.555-14.273-10.703-2.766-1.746-6.184-2.883-9.117-4.363-.988-.496-2.719-.758-3.371-1.586-1.539-1.961-2.379-4.449-3.566-6.738-2.488-4.793-4.93-10.023-7.137-15.066-1.504-3.437-2.484-6.828-4.359-9.91-9-14.797-18.687-23.73-33.695-32.508-3.195-1.867-7.039-2.605-11.102-3.57l-6.543-.395c-1.332-.555-2.715-2.184-3.965-2.977C16.977 3.52 4.223-3.312.539 5.672-1.785 11.34 4.016 16.871 6.09 19.746c1.457 2.012 3.32 4.273 4.359 6.539.688 1.492.805 2.984 1.391 4.559 1.438 3.883 2.695 8.109 4.559 11.695.941 1.816 1.98 3.727 3.172 5.352.727.996 1.98 1.438 2.18 2.973-1.227 1.715-1.297 4.375-1.984 6.543-3.098 9.77-1.926 21.91 2.578 29.137 1.383 2.223 4.641 6.98 9.117 5.156 3.918-1.598 3.043-6.539 4.164-10.902.254-.988.098-1.715.594-2.379v.199l3.57 7.133c2.641 4.254 7.324 8.699 11.297 11.699 2.059 1.555 3.68 4.242 6.344 5.152v-.199h-.199c-.516-.805-1.324-1.137-1.98-1.781-1.551-1.523-3.277-3.414-4.559-5.156-3.613-4.902-6.805-10.27-9.711-15.855-1.391-2.668-2.598-5.609-3.77-8.324-.453-1.047-.445-2.633-1.387-3.172-1.281 1.988-3.172 3.598-4.164 5.945-1.582 3.754-1.789 8.336-2.375 13.082-.348.125-.195.039-.398.199-2.762-.668-3.73-3.508-4.758-5.949-2.594-6.164-3.078-16.09-.793-23.191.59-1.836 3.262-7.617 2.18-9.316-.516-1.691-2.219-2.672-3.172-3.965-1.18-1.598-2.355-3.703-3.172-5.551-2.125-4.805-3.113-10.203-5.352-15.062-1.07-2.324-2.875-4.676-4.359-6.738-1.645-2.289-3.484-3.977-4.758-6.742-.453-.984-1.066-2.559-.398-3.566.215-.684.516-.969 1.191-1.191 1.148-.887 4.352.297 5.547.793 3.18 1.32 5.832 2.578 8.527 4.363 1.289.855 2.598 2.512 4.16 2.973h1.785c2.789.641 5.914.195 8.523.988 4.609 1.402 8.738 3.582 12.488 5.949 11.422 7.215 20.766 17.48 27.156 29.734 1.027 1.973 1.473 3.852 2.379 5.945 1.824 4.219 4.125 8.559 5.941 12.688 1.816 4.113 3.582 8.27 6.148 11.695 1.348 1.801 6.551 2.766 8.918 3.766 1.66.699 4.379 1.43 5.949 2.379 3 1.809 5.906 3.965 8.723 5.945 1.402.992 5.73 3.168 5.945 4.957zm-88.605-75.52c-1.453-.027-2.48.156-3.566.395v.199h.195c.695 1.422 1.918 2.34 2.777 3.566l1.98 4.164.199-.195c1.227-.867 1.789-2.25 1.781-4.363-.492-.52-.562-1.164-.992-1.785-.562-.824-1.66-1.289-2.375-1.98zm0 0"/></symbol>
+    <symbol id="i-mongodb" viewBox="0 0 128 128"><path fill-rule="evenodd" clip-rule="evenodd" d="M90.491 57.282c-.37-4.79-1.496-9.409-3.062-13.934-3.244-10.104-8.45-19.046-15.783-26.74-1.854-1.946-3.916-3.729-5.209-6.151-.818-1.532-1.597-3.085-2.394-4.629l-.505-1.273c-.085.292-.139.396-.142.501-.065 2.517-1.491 4.224-3.267 5.817-1.997 1.793-3.856 3.739-5.775 5.618l-5.901 7.763c-1.592 2.925-3.182 5.85-4.772 8.775l-3.19 8.617-.096.134c-1.756 5.768-2.622 11.698-3.048 17.688-.16 2.251.022 4.535.149 6.798.181 3.235.743 6.415 1.586 9.545 3.062 11.372 9.276 20.805 17.771 28.819 1.579 1.489 3.199 2.843 4.847 4.26.282-.965.507-1.93.763-2.895.256-.961.515-1.917.688-2.881-.174.964-.369 1.92-.562 2.881l-.826 2.895.738 2.501.684 3.884.326 4.053c-.003.823-.036 1.648.014 2.47.012.21.288.404.442.606l1.376.483 1.434.558-.246-3.603-.011-3.548.495-5.405.359-1.177 1.027-1.82c1.268-1.02 2.629-1.946 3.784-3.081 2.09-2.054 4.175-4.134 6.045-6.383a47.846 47.846 0 006.191-9.516c1.122-2.284 2.178-4.614 3.052-7.001.77-2.104 1.247-4.315 1.854-6.479.054-.156.126-.309.16-.468 1.254-5.841 1.465-11.741 1.004-17.682zm-23.599 49.375l-.805-1.763.805 1.763 1.183 1.01-1.183-1.01z"/></symbol>
+    <symbol id="i-html5" viewBox="0 0 128 128"><path d="M9.032 2l10.005 112.093 44.896 12.401 45.02-12.387L118.968 2H9.032zm89.126 26.539l-.627 7.172L97.255 39H44.59l1.257 14h50.156l-.336 3.471-3.233 36.119-.238 2.27L64 102.609v.002l-.034.018-28.177-7.423L33.876 74h13.815l.979 10.919L63.957 89H64v-.546l15.355-3.875L80.959 67H33.261l-3.383-38.117L29.549 25h68.939l-.33 3.539z"/></symbol>
+    <symbol id="i-css3" viewBox="0 0 128 128"><path d="M8.76 1l10.055 112.883 45.118 12.58 45.244-12.626L119.24 1H8.76zm89.591 25.862l-3.347 37.605.01.203-.014.467v-.004l-2.378 26.294-.262 2.336L64 101.607v.001l-.022.019-28.311-7.888L33.75 72h13.883l.985 11.054 15.386 4.17-.004.008v-.002l15.443-4.229L81.075 65H48.792l-.277-3.043-.631-7.129L47.553 51h34.749l1.264-14H30.64l-.277-3.041-.63-7.131L29.401 23h69.281l-.331 3.862z"/></symbol>
+    <symbol id="i-bootstrap" viewBox="0 0 128 128"><path d="M27.235 13.885c-7.177 0-12.486 6.284-12.249 13.099.228 6.546-.068 15.026-2.203 21.94-2.14 6.936-5.76 11.319-11.673 11.883v6.387c5.913.563 9.533 4.947 11.673 11.883 2.135 6.914 2.43 15.394 2.203 21.94-.238 6.815 5.072 13.098 12.249 13.098h73.54c7.177 0 12.486-6.284 12.249-13.098-.228-6.546.068-15.026 2.202-21.94 2.14-6.935 5.751-11.319 11.664-11.883v-6.387c-5.913-.563-9.523-4.947-11.664-11.883-2.134-6.914-2.43-15.394-2.202-21.94.237-6.815-5.072-13.099-12.25-13.099zm58.114 61.686c0 9.384-7.002 15.073-18.621 15.073H45.306a.491.491 0 01-.491-.491V37.827a.491.491 0 01.491-.492h21.309c9.689 0 16.047 5.246 16.047 13.3 0 5.653-4.277 10.713-9.727 11.6v.296c7.418.813 12.414 5.948 12.414 13.04zM64.571 44.096H53.293v15.922h9.5c7.342 0 11.391-2.955 11.391-8.238 0-4.95-3.481-7.684-9.613-7.684zm-11.278 22.24v17.548h11.695c7.645 0 11.695-3.066 11.695-8.83 0-5.763-4.163-8.718-12.187-8.718z"/></symbol>
+    <symbol id="i-jquery" viewBox="0 0 128 128"><path d="M65.283 106.928c-.828-.187-1.633-.446-2.441-.685l-.609-.185a72.498 72.498 0 01-2.352-.765l-.323-.117a71.149 71.149 0 01-2.074-.769l-.582-.229c-.752-.297-1.5-.607-2.238-.931l-.447-.198a92.857 92.857 0 01-1.889-.879l-.546-.262c-.491-.239-.977-.493-1.461-.743-.324-.171-.654-.332-.975-.51a57.368 57.368 0 01-1.751-.982l-.591-.33a79.8 79.8 0 01-2.28-1.397l-.615-.41a57.785 57.785 0 01-1.623-1.079l-.523-.367a93.376 93.376 0 01-1.534-1.109l-.679-.514a67.061 67.061 0 01-1.384-1.082l-.617-.495a85.378 85.378 0 01-1.724-1.453l-.188-.159a81.186 81.186 0 01-1.812-1.647l-.51-.491c-.441-.42-.875-.843-1.302-1.277l-.51-.509a72.65 72.65 0 01-1.599-1.69l-.078-.084a65.735 65.735 0 01-1.621-1.844l-.424-.504a67.378 67.378 0 01-1.167-1.442l-.427-.532a78.406 78.406 0 01-1.347-1.794C12.89 62.89 8.524 40.032 18.236 21.26L9.625 32.181C-1.404 48.032-.031 68.657 8.394 85.501c.2.404.411.801.617 1.198l.395.759.245.437.439.786c.262.461.53.92.805 1.379l.458.756c.304.491.615.976.934 1.46l.398.614c.438.655.888 1.309 1.352 1.951l.039.05.228.308c.4.553.814 1.099 1.232 1.639l.463.59c.373.469.752.935 1.139 1.399l.435.52a75.27 75.27 0 001.586 1.812l.032.033.062.068a77.952 77.952 0 001.612 1.699l.517.521c.423.426.853.845 1.287 1.262l.526.5c.58.547 1.166 1.083 1.764 1.607l.028.022.307.262c.526.456 1.062.909 1.603 1.353l.664.529c.441.354.887.702 1.336 1.044l.714.543c.495.365.995.724 1.499 1.075l.546.387.15.107c.478.329.967.646 1.456.963l.63.42c.749.474 1.51.943 2.278 1.396l.63.355a74.53 74.53 0 001.711.959c.312.168.632.327.946.488.407.213.811.429 1.225.636l.283.137.501.242c.641.306 1.287.607 1.94.897l.41.184a66.92 66.92 0 002.263.941l.551.217c.704.271 1.418.539 2.135.791l.268.093c.786.275 1.581.53 2.381.779l.575.172c.814.245 1.618.538 2.458.693 53.339 9.727 68.833-32.053 68.833-32.053-13.014 16.954-36.112 21.426-57.997 16.447zM46.069 63.697c1.195 1.713 2.52 3.751 4.105 5.127a48.111 48.111 0 001.79 1.858l.472.465a52.581 52.581 0 001.828 1.698l.074.064.018.018a55.268 55.268 0 002.135 1.767l.484.378a54.08 54.08 0 002.233 1.631l.065.049c.336.232.679.448 1.02.672l.482.319c.544.349 1.096.689 1.656 1.015l.234.136c.483.278.973.552 1.463.818l.521.271c.339.177.678.358 1.024.53l.155.07c.702.346 1.411.68 2.136.995l.472.194a50.02 50.02 0 001.75.71l.75.275c.533.198 1.068.378 1.608.559l.727.233c.767.238 1.525.539 2.324.672 41.183 6.823 50.69-24.886 50.69-24.886-8.57 12.343-25.168 18.233-42.879 13.635a50.376 50.376 0 01-2.333-.674l-.7-.227a46.162 46.162 0 01-1.632-.562l-.736-.274a57.432 57.432 0 01-1.756-.708l-.473-.2a47.728 47.728 0 01-2.148-.999c-.364-.177-.721-.364-1.078-.548l-.622-.32a44.502 44.502 0 01-1.363-.77l-.326-.185a47.802 47.802 0 01-1.65-1.008l-.498-.332a65.856 65.856 0 01-1.069-.707 58.235 58.235 0 01-2.226-1.628l-.501-.395c-7.752-6.12-13.897-14.486-16.819-23.971-3.062-9.836-2.401-20.878 2.903-29.84l-6.517 9.2c-7.977 11.478-7.543 26.844-1.321 38.983a50.37 50.37 0 003.528 5.892zm43.407-14.199c.339.125.678.237 1.022.354l.451.143c.484.152.966.329 1.467.424 22.739 4.394 28.908-11.669 30.549-14.034-5.403 7.779-14.482 9.646-25.623 6.942-.88-.213-1.848-.531-2.696-.832a33.242 33.242 0 01-3.201-1.329 33.175 33.175 0 01-5.612-3.424c-9.969-7.565-16.162-21.994-9.657-33.745l-3.52 4.851c-4.702 6.92-5.164 15.514-1.901 23.156 3.441 8.112 10.492 14.475 18.721 17.494z"/></symbol>
+    <symbol id="i-postman" viewBox="0 0 128 128"><path d="M62.988 1.943c-12.929.2-25.904 4.428-36.925 12.94-27.125 20.953-32.13 59.93-11.176 87.055 20.957 27.123 59.937 32.124 87.058 11.167 27.114-20.952 32.118-59.918 11.172-87.039C100.68 9.96 81.884 1.65 62.988 1.943zm28.875 23.139a9.27 9.27 0 0 1 5.586 1.914l-8.068 8.117a.84.84 0 0 0-.076.098.83.83 0 0 0-.239.55.832.832 0 0 0 .313.65h.002l6.1 6.1a9.044 9.044 0 0 1-10.028-1.913c-2.586-2.6-3.336-6.504-1.953-9.891 1.383-3.39 4.68-5.605 8.363-5.625zm7.12 3.432a8.87 8.87 0 0 1 2.033 5.674 9.15 9.15 0 0 1-2.688 6.464 9.989 9.989 0 0 1-1.098.895L92.307 36.7l-.963-.963.265-.265 7.373-6.96zm-.366 4.193a.777.777 0 0 0-.55.031.731.731 0 0 0-.36.426.73.73 0 0 0 .05.559 2.226 2.226 0 0 1-.257 2.328.64.64 0 0 0-.195.488c.004.184.07.36.195.492a.58.58 0 0 0 .414 0 .68.68 0 0 0 .672-.207 3.573 3.573 0 0 0 .465-3.777v.004a.777.777 0 0 0-.434-.344zM79.34 39.43a5.584 5.584 0 0 1 3.31 1.226 4.756 4.756 0 0 0-2.681 1.34L57.162 64.701l-4.476-4.476c11.828-11.772 19.06-17.921 23.556-19.936a5.584 5.584 0 0 1 3.098-.86zm3.965 2.96a2.895 2.895 0 0 1 2.043.844 2.786 2.786 0 0 1 .879 2.121 2.869 2.869 0 0 1-.985 2.07l-24.25 21.106-2.617-2.617 22.887-22.68a2.895 2.895 0 0 1 2.043-.843zm2.994 6.698c-1.69 6.702-10.647 15.783-19.987 24.607l-3.777-3.773L86.3 49.088zM51.367 61.547l.274.27 3.513 3.513-9.63 2.06 5.843-5.843zm5.793 5.84.004.004 1.168 1.195a1.086 1.086 0 0 0 .018.084l.078.012.248.254.82.84-5.385.66 3.05-3.05zm3.867 4.076 3.578 3.576A126.992 126.992 0 0 1 38.75 91.695a1.44 1.44 0 0 0-.777 1.653l1.035 4.5a.31.31 0 0 1 0 .363.31.31 0 0 1-.414 0l-6.102-6.152L51.3 72.975l9.728-1.512zm-29.933 21.94.869.814 4.492 4.492-10.016-.648 4.655-4.659z"/></symbol>
+    <symbol id="i-json" viewBox="0 0 128 128"><path d="M45.949 63.71c0 22.998 17.853 30.038 18.223 30.175l.016.005a.823.823 0 0 0-.05.021h-.001v.001h.001c20.306 6.899 40.668-10.261 40.668-41.251 0-17.054-7.595-37.361-27.7-48.894C105.528 10.083 126 34.393 126 63.903c0 35.822-30.182 62.003-61.873 62.003-2.078 0-37.078-10.935-37.216-51.164-.103-30.18 19.208-40.406 32.72-38.442.009.003-13.682 7.806-13.682 27.41z"/><path fill-rule="evenodd" d="M82.051 64.29c0-22.998-17.853-30.038-18.223-30.175l-.016-.005a.823.823 0 0 0 .05-.021h.001v-.001h-.001C43.556 27.19 23.193 44.35 23.193 75.34c0 17.054 7.595 37.361 27.7 48.894C22.472 117.917 2 93.607 2 64.097 2 28.275 32.182 2.094 63.873 2.094c2.078 0 37.078 10.935 37.216 51.164.103 30.18-19.207 40.406-32.72 38.443-.009-.004 13.682-7.807 13.682-27.411z" clip-rule="evenodd"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ============ CINEMATIC LOADER ============ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__panel loader__panel--top"></div>
+  <div class="loader__panel loader__panel--bottom"></div>
+  <div class="loader__inner">
+    <div class="loader__ring">
+      <svg viewBox="0 0 200 200">
+        <circle class="loader__track" cx="100" cy="100" r="92"/>
+        <circle class="loader__progress" id="loaderRing" cx="100" cy="100" r="92" pathLength="100"/>
+        <circle class="loader__ticks" cx="100" cy="100" r="80" pathLength="100"/>
+      </svg>
+      <span class="loader__initials">A<span>R</span></span>
+      <span class="loader__scan"></span>
+    </div>
+    <div class="loader__pct"><span id="loaderPct">00</span><small>%</small></div>
+    <ul class="loader__steps" id="loaderSteps">
+      <li data-at="0">INITIALIZING EXPERIENCE...</li>
+      <li data-at="34">LOADING DEVELOPER PROFILE...</li>
+      <li data-at="67">PREPARING DIGITAL ENVIRONMENT...</li>
+    </ul>
+    <div class="loader__wave" id="loaderWave"></div>
+  </div>
+  <span class="loader__line"></span>
+</div>
+
+<!-- ============ AMBIENT LAYERS ============ -->
+<div class="bg-layers" aria-hidden="true">
+  <div class="bg-grid"></div>
+  <div class="bg-radial"></div>
+  <canvas class="bg-particles" id="bgParticles"></canvas>
+  <div class="bg-noise"></div>
+</div>
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+<div class="cursor" id="cursor" aria-hidden="true">
+  <div class="cursor__ring"><span class="cursor__label"></span></div>
+  <div class="cursor__dot"></div>
+</div>
+<div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="site-header" id="siteHeader">
+  <nav class="nav-shell" aria-label="Primary">
+    <a href="#home" class="brand" aria-label="Abimanyu R — back to top">
+      <svg class="brand__mark" aria-hidden="true"><use href="#mark-ar"/></svg>
+      <span class="brand__line" aria-hidden="true"></span>
+      <span class="brand__name">Abimanyu<span>.R</span></span>
+    </a>
+
+    <div class="nav-links-wrap">
+      <ul class="nav-links">
+        <li><a href="#home" data-link="home">Home</a></li>
+        <li><a href="#about" data-link="about">About</a></li>
+        <li><a href="#skills" data-link="skills">Skills</a></li>
+        <li><a href="#experience" data-link="experience">Experience</a></li>
+        <li><a href="#projects" data-link="projects">Projects</a></li>
+        <li><a href="#education" data-link="education">Education</a></li>
+        <li><a href="#contact" data-link="contact">Contact</a></li>
+      </ul>
+      <span class="nav-indicator" id="navIndicator" aria-hidden="true"></span>
+    </div>
+
+    <div class="nav-actions">
+      <span class="availability" title="Open to connect">
+        <span class="availability__dot" aria-hidden="true"></span><span class="availability__text">Open to connect</span>
+      </span>
+      <a href="assets/resume/Abimanyu_R_Resume.pdf" download="Abimanyu_R_Resume.pdf" class="btn-x btn-x--primary btn-x--sm nav-resume" data-resume data-magnetic>
+        <span class="btn-x__icon"><i class="bi bi-arrow-down" aria-hidden="true"></i></span><span class="btn-x__text">Resume</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<!-- Full-screen mobile menu -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Site menu" hidden>
+  <div class="mobile-menu__grid" aria-hidden="true"></div>
+  <nav class="mobile-menu__nav" aria-label="Mobile">
+    <ol>
+      <li style="--i:0"><a href="#home"><span class="mono">01</span>Home</a></li>
+      <li style="--i:1"><a href="#about"><span class="mono">02</span>About</a></li>
+      <li style="--i:2"><a href="#skills"><span class="mono">03</span>Skills</a></li>
+      <li style="--i:3"><a href="#experience"><span class="mono">04</span>Experience</a></li>
+      <li style="--i:4"><a href="#projects"><span class="mono">05</span>Projects</a></li>
+      <li style="--i:5"><a href="#education"><span class="mono">06</span>Education</a></li>
+      <li style="--i:6"><a href="#contact"><span class="mono">07</span>Contact</a></li>
+    </ol>
+  </nav>
+  <div class="mobile-menu__foot">
+    <a href="mailto:abimanyuravichandran003@gmail.com" class="mono">abimanyuravichandran003@gmail.com</a>
+    <div class="d-flex gap-2 flex-wrap">
+      <a href="https://github.com/Abimanyu-Ravichandran7" target="_blank" rel="noopener" class="btn-x btn-x--outline btn-x--sm"><i class="bi bi-github" aria-hidden="true"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/abimanyu-ravichandran" target="_blank" rel="noopener" class="btn-x btn-x--outline btn-x--sm"><i class="bi bi-linkedin" aria-hidden="true"></i> LinkedIn</a>
+      <a href="assets/resume/Abimanyu_R_Resume.pdf" download="Abimanyu_R_Resume.pdf" class="btn-x btn-x--primary btn-x--sm" data-resume><i class="bi bi-download" aria-hidden="true"></i> Resume</a>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home" data-nav="home" aria-labelledby="heroTitle">
+    <div class="hero__bgword" aria-hidden="true"><span id="heroBgWord">ABIMANYU</span></div>
+    <div class="hero__beam" aria-hidden="true"></div>
+
+    <div class="container-xl hero__container">
+      <div class="row align-items-center gx-lg-5 gy-4">
+        <div class="col-lg-7 order-2 order-lg-1 hero__content">
+          <p class="hero__eyebrow" data-reveal>
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <span class="mono">~/portfolio</span>
+            <span class="hero__eyebrow-sep" aria-hidden="true">/</span>
+            <span class="mono" data-decrypt>COIMBATORE, IN</span>
+          </p>
+
+          <h1 class="hero__title" id="heroTitle">
+            <span class="hero__name" data-reveal style="--d:80ms">Abimanyu <span>R</span></span>
+            <span class="hero__line" data-split>Building digital experiences.</span>
+            <span class="hero__line" data-split data-split-delay="380">Teaching technology.</span>
+            <span class="hero__line hero__line--accent" data-reveal="clip" style="--d:760ms"><span class="text-gradient">Creating what's next.</span></span>
+          </h1>
+
+          <p class="hero__role mono" data-reveal style="--d:900ms">
+            <span class="hero__role-prompt" aria-hidden="true">&gt; role:</span>
+            <span class="visually-hidden">Full Stack Developer, Technical Trainer, Software Engineer</span>
+            <span class="hero__role-text" id="roleRotator" aria-hidden="true">FULL STACK DEVELOPER</span><span class="caret" aria-hidden="true"></span>
+          </p>
+
+          <p class="hero__desc" data-blur data-blur-delay="1000">I am a Full Stack Developer and Technical Trainer passionate about building scalable web applications, developing real-world software solutions, and helping aspiring developers transform their ideas into working products.</p>
+
+          <div class="hero__ctas" data-reveal style="--d:1250ms">
+            <a href="#projects" class="btn-x btn-x--primary" data-magnetic>
+              <span class="btn-x__text">Explore My Work</span><span class="btn-x__icon"><i class="bi bi-arrow-down-right" aria-hidden="true"></i></span>
+            </a>
+            <a href="assets/resume/Abimanyu_R_Resume.pdf" download="Abimanyu_R_Resume.pdf" class="btn-x btn-x--outline" data-magnetic data-resume>
+              <span class="btn-x__icon"><i class="bi bi-download" aria-hidden="true"></i></span><span class="btn-x__text">Download Resume</span>
+            </a>
+            <a href="#contact" class="btn-x btn-x--ghost" data-magnetic>
+              <span class="btn-x__text">Contact Me</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <dl class="hero__meta" data-reveal style="--d:1400ms">
+            <div><dt>Currently</dt><dd>Technical Trainer · Qaroo India</dd></div>
+            <div><dt>Core stack</dt><dd>Python · JavaScript · React · Node · Django</dd></div>
+            <div><dt>Based in</dt><dd>Coimbatore, Tamil Nadu</dd></div>
+          </dl>
+        </div>
+
+        <div class="col-lg-5 order-1 order-lg-2 hero__visual">
+          <div class="portrait" id="heroPortrait" data-reveal="scale" style="--d:150ms">
+            <div class="portrait__glow" aria-hidden="true"></div>
+            <div class="portrait__orbit" aria-hidden="true"></div>
+            <div class="portrait__border" aria-hidden="true"></div>
+            <div class="portrait__frame">
+              <picture>
+                <source type="image/webp" srcset="assets/images/abimanyu-hero-600.webp 600w, assets/images/abimanyu-hero-1000.webp 1000w" sizes="(min-width: 992px) 500px, 92vw">
+                <img class="portrait__img" src="assets/images/abimanyu-hero-1000.jpg"
+                     srcset="assets/images/abimanyu-hero-600.jpg 600w, assets/images/abimanyu-hero-1000.jpg 1000w" sizes="(min-width: 992px) 500px, 92vw"
+                     width="1000" height="1502" alt="Abimanyu R working on a laptop in a dimly lit studio" fetchpriority="high" decoding="async">
+              </picture>
+              <div class="portrait__rim" aria-hidden="true"></div>
+              <div class="portrait__shade" aria-hidden="true"></div>
+              <div class="portrait__scan" aria-hidden="true"></div>
+            </div>
+            <span class="hud hud--tl" aria-hidden="true"></span><span class="hud hud--tr" aria-hidden="true"></span>
+            <span class="hud hud--bl" aria-hidden="true"></span><span class="hud hud--br" aria-hidden="true"></span>
+            <span class="portrait__tag mono" aria-hidden="true">IMG_01 — AT WORK</span>
+
+            <div class="hero-info" aria-label="Developer information">
+              <span class="hero-info__label mono">DEV.PROFILE</span>
+              <ul>
+                <li><span>Status</span><b><i class="pulse-dot pulse-dot--sm" aria-hidden="true"></i>Ready</b></li>
+                <li><span>Mode</span><b>Build + Teach</b></li>
+                <li><span>Base</span><b>Coimbatore</b></li>
+              </ul>
+            </div>
+
+            <div class="hero-terminal" aria-label="Profile initialization log">
+              <div class="hero-terminal__bar" aria-hidden="true"><i></i><i></i><i></i><span class="mono">init.sh</span></div>
+              <div class="hero-terminal__body mono" id="heroTerminal">
+                <p class="visually-hidden">Initializing developer profile. Loading technical skills. Full Stack Development: Active. Technical Training: Active. Application Development: Active. System Status: Ready.</p>
+              </div>
+            </div>
+
+            <ul class="float-icons" aria-label="Featured technologies">
+              <li class="float-icon" style="--x:-3%;--y:47%;--dl:0s" data-depth="1.4"><span class="tech-chip" tabindex="0" data-cursor="hover"><svg aria-hidden="true"><use href="#i-python"/></svg><span class="tech-chip__label">Python</span></span></li>
+              <li class="float-icon" style="--x:92%;--y:8%;--dl:-1.2s" data-depth="0.9"><span class="tech-chip" tabindex="0" data-cursor="hover"><svg aria-hidden="true"><use href="#i-react"/></svg><span class="tech-chip__label">React</span></span></li>
+              <li class="float-icon" style="--x:100%;--y:44%;--dl:-2.4s" data-depth="1.8"><span class="tech-chip" tabindex="0" data-cursor="hover"><svg aria-hidden="true"><use href="#i-nodejs"/></svg><span class="tech-chip__label">Node.js</span></span></li>
+              <li class="float-icon" style="--x:86%;--y:78%;--dl:-3.1s" data-depth="1.1"><span class="tech-chip" tabindex="0" data-cursor="hover"><svg aria-hidden="true"><use href="#i-django"/></svg><span class="tech-chip__label">Django</span></span></li>
+              <li class="float-icon" style="--x:40%;--y:-4%;--dl:-0.6s" data-depth="0.7"><span class="tech-chip" tabindex="0" data-cursor="hover"><svg aria-hidden="true"><use href="#i-javascript"/></svg><span class="tech-chip__label">JavaScript</span></span></li>
+              <li class="float-icon" style="--x:62%;--y:101%;--dl:-1.8s" data-depth="1.6"><span class="tech-chip" tabindex="0" data-cursor="hover"><svg aria-hidden="true"><use href="#i-mysql"/></svg><span class="tech-chip__label">MySQL</span></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to the About section">
+      <span class="scroll-cue__mouse" aria-hidden="true"><span></span></span>
+      <span class="mono">Scroll to explore</span>
+    </a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section about" id="about" data-nav="about" aria-labelledby="aboutTitle">
+    <span class="geo geo--square" aria-hidden="true" data-parallax="-0.08"></span>
+    <span class="geo geo--ring" aria-hidden="true" data-parallax="0.06"></span>
+    <div class="container-xl">
+      <div class="section-head" data-reveal><span class="section-head__idx">01</span><span class="section-head__bar"></span><span data-decrypt>About me</span></div>
+      <div class="row gx-lg-5 gy-5 align-items-start">
+        <div class="col-lg-5">
+          <figure class="about-portrait" data-reveal="left">
+            <div class="about-portrait__frame">
+              <picture>
+                <source type="image/webp" srcset="assets/images/abimanyu-about-480.webp 480w, assets/images/abimanyu-about-760.webp 760w" sizes="(min-width: 992px) 440px, 90vw">
+                <img src="assets/images/abimanyu-about-760.jpg" srcset="assets/images/abimanyu-about-480.jpg 480w, assets/images/abimanyu-about-760.jpg 760w" sizes="(min-width: 992px) 440px, 90vw"
+                     width="760" height="983" alt="Studio portrait of Abimanyu R in a black shirt against a dark backdrop" loading="lazy" decoding="async" data-parallax-img="0.06">
+              </picture>
+              <span class="about-portrait__shade" aria-hidden="true"></span>
+            </div>
+            <span class="about-portrait__offset" aria-hidden="true"></span>
+            <span class="about-portrait__lines" aria-hidden="true"></span>
+            <figcaption class="about-portrait__caption mono"><i class="bi bi-geo-alt" aria-hidden="true"></i> Coimbatore · Tamil Nadu · India</figcaption>
+            <span class="about-portrait__vertical mono" aria-hidden="true">BEYOND THE CODE — 2026</span>
+          </figure>
+        </div>
+
+        <div class="col-lg-7">
+          <h2 class="section-title" id="aboutTitle"><span data-split>Beyond the</span> <span class="text-gradient" data-reveal="clip" style="--d:300ms">code.</span></h2>
+          <div class="about-bio" id="aboutBio">
+            <p data-words>I am <strong>Abimanyu R</strong>, a Full Stack Developer and Technical Trainer from Coimbatore, Tamil Nadu, India.</p>
+            <p data-words>I have professional experience in technical training, software development, mentoring students, designing structured learning programs, and developing practical web applications.</p>
+            <p data-words>My technical expertise includes Python, JavaScript, React.js, Node.js, Express.js, Django, REST APIs, MySQL, and MongoDB.</p>
+            <p data-words>I enjoy combining software development with technical education. My goal is to build useful digital solutions while helping aspiring developers understand technology through practical, real-world learning experiences.</p>
+          </div>
+
+          <div class="row g-3 highlight-grid">
+            <div class="col-sm-6" data-reveal style="--d:0ms">
+              <article class="highlight-card" data-spotlight>
+                <span class="highlight-card__icon" aria-hidden="true"><i class="bi bi-stack"></i></span>
+                <h3>Full Stack Development</h3>
+                <p>Front-end, back-end and database integration across Python and JavaScript stacks.</p>
+                <span class="highlight-card__idx mono" aria-hidden="true">/01</span>
+              </article>
+            </div>
+            <div class="col-sm-6" data-reveal style="--d:90ms">
+              <article class="highlight-card" data-spotlight>
+                <span class="highlight-card__icon" aria-hidden="true"><i class="bi bi-easel2"></i></span>
+                <h3>Technical Training</h3>
+                <p>Classroom delivery, day-wise curricula and mentoring that build job-ready skills.</p>
+                <span class="highlight-card__idx mono" aria-hidden="true">/02</span>
+              </article>
+            </div>
+            <div class="col-sm-6" data-reveal style="--d:180ms">
+              <article class="highlight-card" data-spotlight>
+                <span class="highlight-card__icon" aria-hidden="true"><i class="bi bi-plug"></i></span>
+                <h3>API Integration</h3>
+                <p>REST APIs with Express.js and Django REST Framework, consumed from React front ends.</p>
+                <span class="highlight-card__idx mono" aria-hidden="true">/03</span>
+              </article>
+            </div>
+            <div class="col-sm-6" data-reveal style="--d:270ms">
+              <article class="highlight-card" data-spotlight>
+                <span class="highlight-card__icon" aria-hidden="true"><i class="bi bi-window-stack"></i></span>
+                <h3>Real-World Application Development</h3>
+                <p>CRM, ERP, CMS and inventory platforms with REST APIs and role-based access.</p>
+                <span class="highlight-card__idx mono" aria-hidden="true">/04</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TECHNOLOGY UNIVERSE ============ -->
+  <section class="section universe" id="universe" data-nav="skills" aria-labelledby="universeTitle">
+    <div class="container-xl">
+      <div class="row gx-lg-5 gy-5 align-items-center">
+        <div class="col-lg-5">
+          <div class="section-head" data-reveal><span class="section-head__idx">02</span><span class="section-head__bar"></span><span data-decrypt>Technology universe</span></div>
+          <h2 class="section-title section-title--md" id="universeTitle"><span data-split>My digital</span> <span data-split data-split-delay="200">technology</span> <span class="text-gradient" data-reveal="clip" style="--d:400ms">universe.</span></h2>
+          <p class="section-lead" data-reveal>Each node is a technology from my working toolkit. Hover to identify it, select it to see where it fits in my work.</p>
+
+          <div class="universe-info" id="universeInfo" data-reveal aria-live="polite">
+            <div class="universe-info__head">
+              <span class="universe-info__icon" aria-hidden="true"><svg><use id="uIcon" href="#i-python"/></svg></span>
+              <div>
+                <span class="mono universe-info__label">Selected node</span>
+                <h3 id="uName">Python</h3>
+              </div>
+            </div>
+            <p class="universe-info__cat mono" id="uCat">Programming Language</p>
+            <p class="universe-info__desc" id="uDesc">Core language in my training at Qaroo India and Indra Institute, and the backend language of my CRM application.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="orbit" id="orbit" data-reveal="scale" role="group" aria-label="Technology universe — select a technology">
+            <div class="orbit__ring" data-ring="0" aria-hidden="true"></div>
+            <div class="orbit__ring" data-ring="1" aria-hidden="true"></div>
+            <div class="orbit__ring" data-ring="2" aria-hidden="true"></div>
+            <div class="orbit__core" aria-hidden="true"><span class="orbit__core-pulse"></span><svg><use href="#mark-ar"/></svg></div>
+
+            <button type="button" class="orbit__node is-selected" data-ring="0" data-tech="python" data-name="Python" data-cat="Programming Language" data-desc="Core language in my training at Qaroo India and Indra Institute, and the backend language of my CRM application." aria-pressed="true"><svg aria-hidden="true"><use href="#i-python"/></svg><span class="orbit__label">Python</span></button>
+            <button type="button" class="orbit__node" data-ring="0" data-tech="javascript" data-name="JavaScript" data-cat="Programming Language" data-desc="Taught across my full-stack training programs and used to build the CRM and BMW showroom projects." aria-pressed="false"><svg aria-hidden="true"><use href="#i-javascript"/></svg><span class="orbit__label">JavaScript</span></button>
+            <button type="button" class="orbit__node" data-ring="0" data-tech="django" data-name="Django" data-cat="Backend Framework" data-desc="Python web framework I teach at Qaroo India, including REST APIs built with Django REST Framework." aria-pressed="false"><svg aria-hidden="true"><use href="#i-django"/></svg><span class="orbit__label">Django</span></button>
+            <button type="button" class="orbit__node" data-ring="0" data-tech="nodejs" data-name="Node.js" data-cat="Backend Runtime" data-desc="Server-side JavaScript covered in my classroom training at Qaroo India." aria-pressed="false"><svg aria-hidden="true"><use href="#i-nodejs"/></svg><span class="orbit__label">Node.js</span></button>
+
+            <button type="button" class="orbit__node" data-ring="1" data-tech="react" data-name="React" data-cat="Frontend Library" data-desc="Taught at Qaroo India, including consuming REST APIs from React front ends." aria-pressed="false"><svg aria-hidden="true"><use href="#i-react"/></svg><span class="orbit__label">React</span></button>
+            <button type="button" class="orbit__node" data-ring="1" data-tech="express" data-name="Express.js" data-cat="Backend Framework" data-desc="Used to teach REST API development alongside Node.js at Qaroo India." aria-pressed="false"><svg aria-hidden="true"><use href="#i-express"/></svg><span class="orbit__label">Express.js</span></button>
+            <button type="button" class="orbit__node" data-ring="1" data-tech="mysql" data-name="MySQL" data-cat="Database" data-desc="Structured storage behind the CRM and BMW ERP projects — CRUD operations and role-based data access." aria-pressed="false"><svg aria-hidden="true"><use href="#i-mysql"/></svg><span class="orbit__label">MySQL</span></button>
+            <button type="button" class="orbit__node" data-ring="1" data-tech="mongodb" data-name="MongoDB" data-cat="Database" data-desc="NoSQL database covered in my training at Qaroo India." aria-pressed="false"><svg aria-hidden="true"><use href="#i-mongodb"/></svg><span class="orbit__label">MongoDB</span></button>
+
+            <button type="button" class="orbit__node" data-ring="2" data-tech="html5" data-name="HTML" data-cat="Markup" data-desc="The foundation of every interface I build, including the responsive BMW showroom website." aria-pressed="false"><svg aria-hidden="true"><use href="#i-html5"/></svg><span class="orbit__label">HTML</span></button>
+            <button type="button" class="orbit__node" data-ring="2" data-tech="css3" data-name="CSS" data-cat="Styling" data-desc="Responsive, mobile-friendly styling for the interfaces I build and teach." aria-pressed="false"><svg aria-hidden="true"><use href="#i-css3"/></svg><span class="orbit__label">CSS</span></button>
+            <button type="button" class="orbit__node" data-ring="2" data-tech="nextjs" data-name="Next.js" data-cat="Frontend Framework" data-desc="React framework that is part of my web technologies toolkit." aria-pressed="false"><svg aria-hidden="true"><use href="#i-nextjs"/></svg><span class="orbit__label">Next.js</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS MATRIX ============ -->
+  <section class="section skills" id="skills" data-nav="skills" aria-labelledby="skillsTitle">
+    <div class="container-xl">
+      <div class="row align-items-end gy-3 mb-4 mb-lg-5">
+        <div class="col-lg-8">
+          <div class="section-head" data-reveal><span class="section-head__idx">03</span><span class="section-head__bar"></span><span data-decrypt>Skill matrix</span></div>
+          <h2 class="section-title mb-0" id="skillsTitle"><span data-split>My technology</span> <span class="text-gradient" data-reveal="clip" style="--d:300ms">stack.</span></h2>
+        </div>
+        <div class="col-lg-4">
+          <p class="section-lead mb-0" data-reveal>Every skill listed on my resume, grouped the way I use them — no invented percentages, just the tools and practices I work with.</p>
+        </div>
+      </div>
+
+      <div class="matrix" data-reveal>
+        <div class="matrix__bar">
+          <div class="matrix__title mono"><i class="bi bi-cpu" aria-hidden="true"></i> skill_matrix.sys <span class="matrix__blink" aria-hidden="true"></span></div>
+          <div class="matrix__stats mono">
+            <span><b data-count="7">7</b> categories</span>
+            <span><b data-count="25">25</b> skills</span>
+          </div>
+        </div>
+
+        <div class="matrix__filters" id="skillFilters" role="toolbar" aria-label="Filter skills by category">
+          <span class="matrix__filter-indicator" aria-hidden="true"></span>
+          <button type="button" class="is-active" data-filter="all" aria-pressed="true">All <span>25</span></button>
+          <button type="button" data-filter="lang" aria-pressed="false">Languages <span>2</span></button>
+          <button type="button" data-filter="frontend" aria-pressed="false">Frontend <span>6</span></button>
+          <button type="button" data-filter="backend" aria-pressed="false">Backend <span>3</span></button>
+          <button type="button" data-filter="api" aria-pressed="false">API Integration <span>4</span></button>
+          <button type="button" data-filter="db" aria-pressed="false">Databases <span>2</span></button>
+          <button type="button" data-filter="data" aria-pressed="false">Data Tools <span>3</span></button>
+          <button type="button" data-filter="training" aria-pressed="false">Training <span>5</span></button>
+        </div>
+        <p class="visually-hidden" id="skillsStatus" aria-live="polite"></p>
+
+        <ul class="matrix__grid row g-3" id="skillGrid">
+          <!-- Languages -->
+          <li class="col-6 col-md-4 col-xl-3" data-cat="lang"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><svg aria-hidden="true"><use href="#i-python"/></svg></span><span class="skill-card__cat">Language</span></div><h3>Python</h3><p>Core of my training at Qaroo India &amp; Indra Institute; CRM backend logic.</p></div></li>
+          <li class="col-6 col-md-4 col-xl-3" data-cat="lang"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><svg aria-hidden="true"><use href="#i-javascript"/></svg></span><span class="skill-card__cat">Language</span></div><h3>JavaScript</h3><p>Taught in full-stack programs; used in the CRM and BMW showroom builds.</p></div></li>
+          <!-- Frontend -->
+          <li class="col-6 col-md-4 col-xl-3" data-cat="frontend"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><svg aria-hidden="true"><use href="#i-html5"/></svg></span><span class="skill-card__cat">Frontend</span></div><h3>HTML</h3><p>Semantic markup for responsive interfaces.</p></div></li>
+          <li class="col-6 col-md-4 col-xl-3" data-cat="frontend"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><svg aria-hidden="true"><use href="#i-css3"/></svg></span><span class="skill-card__cat">Frontend</span></div><h3>CSS</h3><p>Responsive, mobile-friendly styling.</p></div></li>
+          <li class="col-6 col-md-4 col-xl-3" data-cat="frontend"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><svg aria-hidden="true"><use href="#i-bootstrap"/></svg></span><span class="skill-card__cat">Frontend</span></div><h3>Bootstrap</h3><p>Responsive layout and UI component framework.</p></div></li>
+          <li class="col-6 col-md-4 col-xl-3" data-cat="frontend"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><svg aria-hidden="true"><use href="#i-jquery"/></svg></span><span class="skill-card__cat">Frontend</span></div><h3>jQuery</h3><p>DOM scripting, events and interactions.</p></div></li>
+          <li class="col-6 col-md-4 col-xl-3" data-cat="frontend"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><svg aria-hidden="true"><use href="#i-react"/></svg></span><span class="skill-card__cat">Frontend</span></div><h3>React.js</h3><p>Taught at Qaroo India — front ends that consume REST APIs.</p></div></li>
+          <li class="col-6 col-md-4 col-xl-3" data-cat="frontend"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><svg aria-hidden="true"><use href="#i-nextjs"/></svg></span><span class="skill-card__cat">Frontend</span></div><h3>Next.js</h3><p>React framework in my web technologies toolkit.</p></div></li>
+          <!-- Backend -->
+          <li class="col-6 col-md-4 col-xl-3" data-cat="backend"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><svg aria-hidden="true"><use href="#i-nodejs"/></svg></span><span class="skill-card__cat">Backend</span></div><h3>Node.js</h3><p>Server-side JavaScript, taught at Qaroo India.</p></div></li>
+          <li class="col-6 col-md-4 col-xl-3" data-cat="backend"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><svg aria-hidden="true"><use href="#i-express"/></svg></span><span class="skill-card__cat">Backend</span></div><h3>Express.js</h3><p>REST API development with Node.js.</p></div></li>
+          <li class="col-6 col-md-4 col-xl-3" data-cat="backend"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><svg aria-hidden="true"><use href="#i-django"/></svg></span><span class="skill-card__cat">Backend</span></div><h3>Django</h3><p>Python web framework I teach and build with.</p></div></li>
+          <!-- API -->
+          <li class="col-6 col-md-4 col-xl-3" data-cat="api"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><i class="bi bi-arrow-left-right" aria-hidden="true"></i></span><span class="skill-card__cat">API</span></div><h3>REST API Design &amp; Consumption</h3><p>Designing endpoints and consuming them from front ends.</p></div></li>
+          <li class="col-6 col-md-4 col-xl-3" data-cat="api"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><svg aria-hidden="true"><use href="#i-django"/></svg></span><span class="skill-card__cat">API</span></div><h3>Django REST Framework</h3><p>Building REST APIs on top of Django.</p></div></li>
+          <li class="col-6 col-md-4 col-xl-3" data-cat="api"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><svg aria-hidden="true"><use href="#i-json"/></svg></span><span class="skill-card__cat">API</span></div><h3>JSON</h3><p>Data interchange format for API payloads.</p></div></li>
+          <li class="col-6 col-md-4 col-xl-3" data-cat="api"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><svg aria-hidden="true"><use href="#i-postman"/></svg></span><span class="skill-card__cat">API</span></div><h3>Postman</h3><p>Testing and exploring API endpoints.</p></div></li>
+          <!-- Databases -->
+          <li class="col-6 col-md-4 col-xl-3" data-cat="db"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><svg aria-hidden="true"><use href="#i-mysql"/></svg></span><span class="skill-card__cat">Database</span></div><h3>MySQL</h3><p>Relational storage for the CRM and BMW ERP projects.</p></div></li>
+          <li class="col-6 col-md-4 col-xl-3" data-cat="db"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><svg aria-hidden="true"><use href="#i-mongodb"/></svg></span><span class="skill-card__cat">Database</span></div><h3>MongoDB</h3><p>NoSQL document database, taught at Qaroo India.</p></div></li>
+          <!-- Data & productivity -->
+          <li class="col-6 col-md-4 col-xl-3" data-cat="data"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><i class="bi bi-file-earmark-spreadsheet" aria-hidden="true"></i></span><span class="skill-card__cat">Data Tools</span></div><h3>MS Excel</h3><p>Spreadsheets for data organisation and analysis.</p></div></li>
+          <li class="col-6 col-md-4 col-xl-3" data-cat="data"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><i class="bi bi-bar-chart-line" aria-hidden="true"></i></span><span class="skill-card__cat">Data Tools</span></div><h3>Power BI</h3><p>Reports and interactive dashboards.</p></div></li>
+          <li class="col-6 col-md-4 col-xl-3" data-cat="data"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><i class="bi bi-pie-chart" aria-hidden="true"></i></span><span class="skill-card__cat">Data Tools</span></div><h3>Tableau</h3><p>Data visualisation.</p></div></li>
+          <!-- Training -->
+          <li class="col-6 col-md-4 col-xl-3" data-cat="training"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><i class="bi bi-journal-richtext" aria-hidden="true"></i></span><span class="skill-card__cat">Training</span></div><h3>Curriculum Design</h3><p>Day-wise curricula with examples and incremental projects.</p></div></li>
+          <li class="col-6 col-md-4 col-xl-3" data-cat="training"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><i class="bi bi-easel2" aria-hidden="true"></i></span><span class="skill-card__cat">Training</span></div><h3>Classroom Delivery</h3><p>Classroom training for batches of learners.</p></div></li>
+          <li class="col-6 col-md-4 col-xl-3" data-cat="training"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><i class="bi bi-people" aria-hidden="true"></i></span><span class="skill-card__cat">Training</span></div><h3>Mentoring</h3><p>Code reviews, debugging sessions and mini-projects.</p></div></li>
+          <li class="col-6 col-md-4 col-xl-3" data-cat="training"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><i class="bi bi-clipboard2-check" aria-hidden="true"></i></span><span class="skill-card__cat">Training</span></div><h3>Assessments</h3><p>Regular assessments to track learner progress.</p></div></li>
+          <li class="col-6 col-md-4 col-xl-3" data-cat="training"><div class="skill-card" data-spotlight><div class="skill-card__top"><span class="skill-card__icon"><i class="bi bi-file-earmark-text" aria-hidden="true"></i></span><span class="skill-card__cat">Training</span></div><h3>Technical Documentation</h3><p>Slide decks, notes and practice exercises.</p></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section experience" id="experience" data-nav="experience" aria-labelledby="experienceTitle">
+    <span class="geo geo--triangle" aria-hidden="true" data-parallax="-0.1"></span>
+    <div class="container-xl">
+      <div class="section-head" data-reveal><span class="section-head__idx">04</span><span class="section-head__bar"></span><span data-decrypt>Experience</span></div>
+      <h2 class="section-title" id="experienceTitle"><span data-split>My professional</span> <span class="text-gradient" data-reveal="clip" style="--d:300ms">journey.</span></h2>
+
+      <div class="timeline" id="timeline">
+        <div class="timeline__track" aria-hidden="true"><span class="timeline__fill" id="timelineFill"></span></div>
+        <ol class="timeline__list">
+          <li class="timeline__item" data-reveal>
+            <div class="timeline__date">
+              <span class="timeline__idx mono">01</span>
+              <span class="timeline__period"><time datetime="2026-07">Jul 2026</time> — Present</span>
+              <span class="badge-live"><span class="pulse-dot pulse-dot--sm" aria-hidden="true"></span>Current</span>
+            </div>
+            <span class="timeline__node" aria-hidden="true"></span>
+            <article class="timeline__card" data-spotlight>
+              <header class="timeline__head">
+                <div>
+                  <h3>Technical Trainer</h3>
+                  <p class="timeline__org"><i class="bi bi-buildings" aria-hidden="true"></i> Qaroo India Private Limited <span aria-hidden="true">·</span> <span class="timeline__loc"><i class="bi bi-geo-alt" aria-hidden="true"></i>Coimbatore</span></p>
+                </div>
+                <span class="timeline__type mono">Full-time</span>
+              </header>
+              <p class="timeline__summary">Classroom training across the Python and JavaScript full-stack ecosystem — from day-wise curricula to API integration and one-to-one mentoring.</p>
+              <ul class="tag-list" aria-label="Technologies">
+                <li>Python</li><li>Django</li><li>Node.js</li><li>Express.js</li><li>React.js</li><li>MongoDB</li><li>REST APIs</li><li>DRF</li>
+              </ul>
+              <button class="timeline__toggle" type="button" data-bs-toggle="collapse" data-bs-target="#exp1" aria-expanded="true" aria-controls="exp1">
+                <span>Responsibilities</span><i class="bi bi-plus-lg" aria-hidden="true"></i>
+              </button>
+              <div class="collapse show" id="exp1">
+                <ul class="resp-list">
+                  <li>Deliver classroom training in Python, Django, Node.js, Express.js, React.js, and MongoDB.</li>
+                  <li>Design day-wise curricula with detailed explanations, examples, and incremental hands-on projects.</li>
+                  <li>Teach API integration, including REST APIs built with Express.js and Django REST Framework.</li>
+                  <li>Mentor learners through code reviews, debugging sessions, and mini-projects.</li>
+                  <li>Prepare slide decks, notes, practice exercises, and assessments.</li>
+                  <li>Track learner progress and help students build job-ready skills.</li>
+                </ul>
+              </div>
+            </article>
+          </li>
+
+          <li class="timeline__item" data-reveal>
+            <div class="timeline__date">
+              <span class="timeline__idx mono">02</span>
+              <span class="timeline__period"><time datetime="2024-10">Oct 2024</time> — <time datetime="2025-10">Oct 2025</time></span>
+            </div>
+            <span class="timeline__node" aria-hidden="true"></span>
+            <article class="timeline__card" data-spotlight>
+              <header class="timeline__head">
+                <div>
+                  <h3>Technical Trainer — Full Stack Python</h3>
+                  <p class="timeline__org"><i class="bi bi-buildings" aria-hidden="true"></i> Indra Institute of Education <span aria-hidden="true">·</span> <span class="timeline__loc"><i class="bi bi-geo-alt" aria-hidden="true"></i>Coimbatore</span></p>
+                </div>
+                <span class="timeline__type mono">Training</span>
+              </header>
+              <p class="timeline__summary">Delivered full-stack Python and JavaScript training programs with industry-aligned curriculum modules and hands-on projects.</p>
+              <ul class="tag-list" aria-label="Topics">
+                <li>Python</li><li>JavaScript</li><li>Full Stack</li><li>Databases</li><li>Curriculum Design</li><li>Workshops</li>
+              </ul>
+              <button class="timeline__toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exp2" aria-expanded="false" aria-controls="exp2">
+                <span>Responsibilities</span><i class="bi bi-plus-lg" aria-hidden="true"></i>
+              </button>
+              <div class="collapse" id="exp2">
+                <ul class="resp-list">
+                  <li>Delivered comprehensive Python, JavaScript, and full-stack development training.</li>
+                  <li>Mentored learners through hands-on development projects.</li>
+                  <li>Designed structured curriculum modules aligned with industry standards.</li>
+                  <li>Covered frontend, backend, and database integration.</li>
+                  <li>Conducted coding workshops, practical sessions, and assessments.</li>
+                  <li>Helped improve students' technical foundations and problem-solving abilities.</li>
+                </ul>
+              </div>
+            </article>
+          </li>
+
+          <li class="timeline__item" data-reveal>
+            <div class="timeline__date">
+              <span class="timeline__idx mono">03</span>
+              <span class="timeline__period"><time datetime="2023-12">Dec 2023</time> — <time datetime="2024-05">May 2024</time></span>
+            </div>
+            <span class="timeline__node" aria-hidden="true"></span>
+            <article class="timeline__card" data-spotlight>
+              <header class="timeline__head">
+                <div>
+                  <h3>Software Developer</h3>
+                  <p class="timeline__org"><i class="bi bi-code-slash" aria-hidden="true"></i> Internship</p>
+                </div>
+                <span class="timeline__type mono">Internship</span>
+              </header>
+              <p class="timeline__summary">Built a Customer Relationship Management system for institutional operations using Python, JavaScript and MySQL.</p>
+              <ul class="tag-list" aria-label="Technologies">
+                <li>Python</li><li>JavaScript</li><li>MySQL</li><li>CRUD</li><li>Sessions</li><li>RBAC</li>
+              </ul>
+              <button class="timeline__toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exp3" aria-expanded="false" aria-controls="exp3">
+                <span>Responsibilities</span><i class="bi bi-plus-lg" aria-hidden="true"></i>
+              </button>
+              <div class="collapse" id="exp3">
+                <ul class="resp-list">
+                  <li>Developed a Customer Relationship Management application using Python and JavaScript.</li>
+                  <li>Built backend functionality and form-handling logic.</li>
+                  <li>Integrated MySQL databases.</li>
+                  <li>Implemented CRUD operations for student records, inquiries, and staff assignments.</li>
+                  <li>Worked with session management and secure data transactions.</li>
+                  <li>Implemented role-based access control.</li>
+                </ul>
+              </div>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="projects" id="projects" data-nav="projects" aria-labelledby="projectsTitle">
+    <div class="projects__pin" id="projectsPin">
+      <div class="projects__sticky">
+        <div class="projects__track" id="projectsTrack">
+
+          <div class="projects__intro">
+            <div class="section-head" data-reveal><span class="section-head__idx">05</span><span class="section-head__bar"></span><span data-decrypt>Projects</span></div>
+            <h2 class="section-title" id="projectsTitle"><span data-split>Selected</span><br><span class="text-gradient" data-reveal="clip" style="--d:250ms">works.</span></h2>
+            <p class="section-lead" data-reveal>Turning ideas into functional digital solutions.</p>
+            <ul class="projects__meta mono" data-reveal>
+              <li><b>05</b> projects</li>
+              <li><b>05</b> on GitHub</li>
+              <li><b>01</b> live</li>
+            </ul>
+            <p class="projects__hint mono" data-reveal aria-hidden="true"><i class="bi bi-arrow-right"></i> Keep scrolling</p>
+          </div>
+
+          <!-- Project 01 — Qaroo India platform (live) -->
+          <article class="project" data-tilt aria-labelledby="p1Title">
+            <div class="project__media" data-cursor="view" data-cursor-label="Details" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#projectModal1" aria-label="Open Qaroo India platform details">
+              <div class="mock mock--shot" aria-hidden="true">
+                <div class="mock__bar"><i></i><i></i><i></i><span>qaroo-india-pvt-ltd.vercel.app</span></div>
+                <picture>
+                  <source type="image/webp" srcset="assets/images/project-qaroo-600.webp 600w, assets/images/project-qaroo-1000.webp 1000w" sizes="(min-width: 992px) 520px, 92vw">
+                  <img src="assets/images/project-qaroo-1000.jpg" srcset="assets/images/project-qaroo-600.jpg 600w, assets/images/project-qaroo-1000.jpg 1000w" sizes="(min-width: 992px) 520px, 92vw" width="1000" height="556" alt="" loading="lazy" decoding="async">
+                </picture>
+              </div>
+              <span class="project__concept project__concept--live mono"><span class="pulse-dot pulse-dot--sm" aria-hidden="true"></span>Live site screenshot</span>
+              <span class="project__num" aria-hidden="true">01</span>
+            </div>
+            <div class="project__body">
+              <span class="project__kicker mono">Full-stack platform · Live</span>
+              <h3 class="project__title" id="p1Title">Qaroo India — CMS-Driven Web Platform</h3>
+              <p class="project__desc">A full-stack website platform for Qaroo India Private Limited: a React + Vite public site powered by an admin CMS on a Node.js, Express and MongoDB backend.</p>
+              <ul class="project__features">
+                <li>Admin CMS for pages, MOUs, CSR projects &amp; learning programs</li>
+                <li>JWT auth in HTTP-only cookies with email verification</li>
+                <li>Granular role-based permissions &amp; Super Admin approval</li>
+                <li>Contact inbox, rate limiting &amp; an end-to-end API test suite</li>
+              </ul>
+              <ul class="tech-badges" aria-label="Technology">
+                <li>React</li><li>Vite</li><li>Node.js</li><li>Express</li><li>MongoDB</li><li>JWT</li>
+              </ul>
+              <div class="project__actions">
+                <button type="button" class="btn-x btn-x--outline btn-x--sm" data-bs-toggle="modal" data-bs-target="#projectModal1" data-magnetic>
+                  <span class="btn-x__text">View Details</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+                </button>
+                <a href="https://qaroo-india-pvt-ltd.vercel.app" target="_blank" rel="noopener" class="btn-x btn-x--primary btn-x--sm" data-magnetic>
+                  <span class="btn-x__text">Live Site</span><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/Abimanyu-Ravichandran7/QAROO-INDIA-PVT-LTD" target="_blank" rel="noopener" class="project__icon-link" aria-label="Qaroo India platform source code on GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 02 — Institute OS -->
+          <article class="project" data-tilt aria-labelledby="p2Title">
+            <div class="project__media" data-cursor="view" data-cursor-label="Details" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#projectModal2" aria-label="Open Institute OS details">
+              <div class="mock mock--ios" aria-hidden="true">
+                <div class="mock__bar"><i></i><i></i><i></i><span>institute-os / dashboard</span></div>
+                <div class="mock__body">
+                  <aside class="mock__side">
+                    <span class="mock__logo"></span>
+                    <span class="is-on"><i class="bi bi-speedometer2"></i>Dashboard</span>
+                    <span><i class="bi bi-funnel"></i>Leads</span>
+                    <span><i class="bi bi-person-check"></i>Admissions</span>
+                    <span><i class="bi bi-wallet2"></i>Fees</span>
+                    <span><i class="bi bi-people"></i>Batches</span>
+                    <span><i class="bi bi-briefcase"></i>Placement</span>
+                    <span><i class="bi bi-file-earmark-bar-graph"></i>Reports</span>
+                  </aside>
+                  <div class="mock__main">
+                    <div class="mock__head"><span class="sk sk--title"></span><div class="mock__roles"><b class="is-on">PDF</b><b>Excel</b></div></div>
+                    <div class="mock__tiles"><span><i class="bi bi-funnel"></i><em class="sk"></em></span><span><i class="bi bi-person-check"></i><em class="sk"></em></span><span><i class="bi bi-briefcase"></i><em class="sk"></em></span></div>
+                    <div class="mock__line">
+                      <svg viewBox="0 0 300 70" preserveAspectRatio="none">
+                        <path class="mock__area" d="M0 56 L40 49 L80 53 L120 35 L160 39 L200 23 L240 29 L300 12 L300 70 L0 70Z"/>
+                        <path class="mock__stroke draw" pathLength="1" d="M0 56 L40 49 L80 53 L120 35 L160 39 L200 23 L240 29 L300 12"/>
+                      </svg>
+                    </div>
+                    <div class="mock__kanban">
+                      <div><small>New</small><i></i><i></i><i></i></div>
+                      <div><small>Follow-up</small><i></i><i></i></div>
+                      <div><small>Admitted</small><i class="is-on"></i></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <span class="project__concept mono">Illustrative concept UI — not a screenshot</span>
+              <span class="project__num" aria-hidden="true">02</span>
+            </div>
+            <div class="project__body">
+              <span class="project__kicker mono">Full-stack platform · TypeScript</span>
+              <h3 class="project__title" id="p2Title">Institute OS — Institute Management &amp; Placement Platform</h3>
+              <p class="project__desc">A course-institute management, business-intelligence and placement platform covering the full student lifecycle — from first enquiry to placement.</p>
+              <ul class="project__features">
+                <li>Leads pipeline, admissions &amp; fee ledger with PDF receipts</li>
+                <li>Batches, attendance, online exams &amp; verifiable certificates</li>
+                <li>Student portal &amp; faculty workspace with role-based menus</li>
+                <li>Dashboards, reports, PDF/Excel exports &amp; scheduled email</li>
+              </ul>
+              <ul class="tech-badges" aria-label="Technology">
+                <li>React</li><li>TypeScript</li><li>Tailwind CSS</li><li>Express</li><li>SQLite</li><li>Drizzle ORM</li>
+              </ul>
+              <div class="project__actions">
+                <button type="button" class="btn-x btn-x--outline btn-x--sm" data-bs-toggle="modal" data-bs-target="#projectModal2" data-magnetic>
+                  <span class="btn-x__text">View Details</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+                </button>
+                <a href="https://github.com/Abimanyu-Ravichandran7/Institute_OS" target="_blank" rel="noopener" class="project__icon-link" aria-label="Institute OS source code on GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 03 — StockMaster -->
+          <article class="project" data-tilt aria-labelledby="p3Title">
+            <div class="project__media" data-cursor="view" data-cursor-label="Details" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#projectModal3" aria-label="Open StockMaster details">
+              <div class="mock mock--stock" aria-hidden="true">
+                <div class="mock__bar"><i></i><i></i><i></i><span>stockmaster / admin / products</span></div>
+                <div class="mock__body mock__body--stack">
+                  <div class="mock__head"><span class="sk sk--title"></span><span class="mock__search"><i class="bi bi-search"></i><em class="sk"></em></span></div>
+                  <div class="mock__table">
+                    <span><b class="mock__thumb"></b><em class="sk"></em><u>In stock</u></span>
+                    <span><b class="mock__thumb"></b><em class="sk"></em><u class="is-low">Low</u></span>
+                    <span><b class="mock__thumb"></b><em class="sk"></em><u>In stock</u></span>
+                    <span><b class="mock__thumb"></b><em class="sk"></em><u>In stock</u></span>
+                  </div>
+                  <div class="mock__steps">
+                    <span class="is-done"><i class="bi bi-bag-check"></i><small>Placed</small></span>
+                    <span class="is-done"><i class="bi bi-gear"></i><small>Processing</small></span>
+                    <span class="is-on"><i class="bi bi-truck"></i><small>Shipped</small></span>
+                    <span><i class="bi bi-house-check"></i><small>Delivered</small></span>
+                  </div>
+                </div>
+              </div>
+              <span class="project__concept mono">Illustrative concept UI — not a screenshot</span>
+              <span class="project__num" aria-hidden="true">03</span>
+            </div>
+            <div class="project__body">
+              <span class="project__kicker mono">Full-stack app · React + Django</span>
+              <h3 class="project__title" id="p3Title">StockMaster — Inventory &amp; Order Tracker</h3>
+              <p class="project__desc">An online product inventory and order-tracking system: a dark-themed React frontend backed by a Django REST Framework API.</p>
+              <ul class="project__features">
+                <li>JWT authentication with silent token refresh</li>
+                <li>Admin dashboard with live stats &amp; low-stock alerts</li>
+                <li>Product &amp; category management with search and pagination</li>
+                <li>Customer cart, ordering &amp; step-by-step order tracking</li>
+              </ul>
+              <ul class="tech-badges" aria-label="Technology">
+                <li>React</li><li>Vite</li><li>Tailwind CSS</li><li>Django REST Framework</li><li>MySQL / SQLite</li><li>JWT</li>
+              </ul>
+              <div class="project__actions">
+                <button type="button" class="btn-x btn-x--outline btn-x--sm" data-bs-toggle="modal" data-bs-target="#projectModal3" data-magnetic>
+                  <span class="btn-x__text">View Details</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+                </button>
+                <a href="https://github.com/Abimanyu-Ravichandran7/product-inventory" target="_blank" rel="noopener" class="project__icon-link" aria-label="StockMaster source code on GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 04 — CRM -->
+          <article class="project" data-tilt aria-labelledby="p4Title">
+            <div class="project__media" data-cursor="view" data-cursor-label="Details" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#projectModal4" aria-label="Open CRM Web Application details">
+              <div class="mock mock--crm" aria-hidden="true">
+                <div class="mock__bar"><i></i><i></i><i></i><span>crm / dashboard</span></div>
+                <div class="mock__body">
+                  <aside class="mock__side">
+                    <span class="mock__logo"></span>
+                    <span class="is-on"><i class="bi bi-grid-1x2"></i>Dashboard</span>
+                    <span><i class="bi bi-person-plus"></i>Enrollment</span>
+                    <span><i class="bi bi-calendar-check"></i>Attendance</span>
+                    <span><i class="bi bi-clipboard-check"></i>Tests</span>
+                    <span><i class="bi bi-journal-text"></i>Syllabus</span>
+                    <span><i class="bi bi-list-task"></i>Tasks</span>
+                  </aside>
+                  <div class="mock__main">
+                    <div class="mock__head"><span class="sk sk--title"></span><div class="mock__roles"><b class="is-on">Admin</b><b>Staff</b><b>Student</b></div></div>
+                    <div class="mock__tiles"><span><i class="bi bi-people"></i><em class="sk"></em></span><span><i class="bi bi-person-badge"></i><em class="sk"></em></span><span><i class="bi bi-calendar-check"></i><em class="sk"></em></span></div>
+                    <div class="mock__chart"><i style="--h:42%"></i><i style="--h:68%"></i><i style="--h:55%"></i><i style="--h:80%"></i><i style="--h:62%"></i><i style="--h:74%"></i><i style="--h:50%"></i><i style="--h:88%"></i></div>
+                    <div class="mock__rows"><span><b></b><em class="sk"></em><u></u></span><span><b></b><em class="sk"></em><u></u></span><span><b></b><em class="sk"></em><u></u></span></div>
+                  </div>
+                </div>
+              </div>
+              <span class="project__concept mono">Illustrative concept UI — not a screenshot</span>
+              <span class="project__num" aria-hidden="true">04</span>
+            </div>
+            <div class="project__body">
+              <span class="project__kicker mono">Internal project · Education CRM</span>
+              <h3 class="project__title" id="p4Title">CRM Web Application</h3>
+              <p class="project__desc">A comprehensive CRM web application for an educational institute offering supplementary and skill-based education.</p>
+              <ul class="project__features">
+                <li>Student enrollment &amp; staff assignment</li>
+                <li>Attendance, internal &amp; placement tests</li>
+                <li>Role-based access for admins, staff &amp; students</li>
+                <li>Backend APIs on a structured MySQL database</li>
+              </ul>
+              <ul class="tech-badges" aria-label="Technology">
+                <li>Python</li><li>JavaScript</li><li>HTML</li><li>CSS</li><li>Bootstrap</li><li>MySQL</li>
+              </ul>
+              <div class="project__actions">
+                <button type="button" class="btn-x btn-x--outline btn-x--sm" data-bs-toggle="modal" data-bs-target="#projectModal4" data-magnetic>
+                  <span class="btn-x__text">View Details</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+                </button>
+                <a href="https://github.com/Abimanyu-Ravichandran7/CRM-Customer-Relationship-Management-" target="_blank" rel="noopener" class="project__icon-link" aria-label="CRM Web Application source code on GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 05 — BMW showroom ERP -->
+          <article class="project" data-tilt aria-labelledby="p5Title">
+            <div class="project__media" data-cursor="view" data-cursor-label="Details" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#projectModal5" aria-label="Open ERP Web Application details">
+              <div class="mock mock--car" aria-hidden="true">
+                <div class="mock__bar"><i></i><i></i><i></i><span>showroom / models</span></div>
+                <div class="mock__body mock__body--car">
+                  <div class="mock__tabs"><b class="is-on">Models</b><b>Compare</b><b>Test Drive</b><b>Inquiry</b></div>
+                  <div class="mock__stage">
+                    <svg class="mock__car" viewBox="0 0 400 140" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+                      <path class="draw" pathLength="1" d="M22 104V92q2-12 22-15l68-7q38-26 93-30h45q38 2 68 26l44 8q20 4 20 20v10h-49a28 28 0 0 0-56 0H123a28 28 0 0 0-56 0Z"/>
+                      <path class="draw" pathLength="1" d="M124 70q32-20 76-23l4 23Zm88-23h36q28 3 52 21l-88 2Z"/>
+                      <circle class="draw" pathLength="1" cx="95" cy="104" r="21"/><circle cx="95" cy="104" r="8"/>
+                      <circle class="draw" pathLength="1" cx="305" cy="104" r="21"/><circle cx="305" cy="104" r="8"/>
+                      <path d="M360 84h14M30 88h12M206 74v26"/>
+                    </svg>
+                    <span class="mock__floor"></span>
+                  </div>
+                  <div class="mock__specs"><span><small>Model</small><em class="sk"></em></span><span><small>Specs</small><em class="sk"></em></span><span><small>Price</small><em class="sk"></em></span></div>
+                  <div class="mock__book">
+                    <div class="mock__cal">
+                      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="is-on"></i><i></i><i></i><i></i><i></i>
+                    </div>
+                    <span class="mock__cta">Book test drive</span>
+                  </div>
+                </div>
+              </div>
+              <span class="project__concept mono">Illustrative concept UI — not a screenshot</span>
+              <span class="project__num" aria-hidden="true">05</span>
+            </div>
+            <div class="project__body">
+              <span class="project__kicker mono">Internal project · Automotive ERP</span>
+              <h3 class="project__title" id="p5Title">ERP Web Application — BMW Car Showroom</h3>
+              <p class="project__desc">A responsive BMW showroom website for vehicle models, specifications and pricing, with customer services and an ERP back office for staff.</p>
+              <ul class="project__features">
+                <li>Vehicle models, specifications &amp; pricing</li>
+                <li>Customer inquiries, test-drive booking &amp; car comparison</li>
+                <li>Admin &amp; employee portals for staff, leave and salary</li>
+                <li>Inventory tracking on a MySQL database</li>
+              </ul>
+              <ul class="tech-badges" aria-label="Technology">
+                <li>Python</li><li>PyMySQL</li><li>MySQL</li><li>HTML</li><li>CSS</li><li>JavaScript</li>
+              </ul>
+              <div class="project__actions">
+                <button type="button" class="btn-x btn-x--outline btn-x--sm" data-bs-toggle="modal" data-bs-target="#projectModal5" data-magnetic>
+                  <span class="btn-x__text">View Details</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+                </button>
+                <a href="https://github.com/Abimanyu-Ravichandran7/ERP-WEB-APPLICATION-BMW-car-showroom-" target="_blank" rel="noopener" class="project__icon-link" aria-label="BMW showroom ERP source code on GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <div class="projects__outro">
+            <span class="projects__outro-icon" aria-hidden="true"><i class="bi bi-github"></i></span>
+            <h3>More code lives on GitHub.</h3>
+            <p>Browse the source of every project above, plus whatever I build next.</p>
+            <a href="https://github.com/Abimanyu-Ravichandran7" target="_blank" rel="noopener" class="btn-x btn-x--primary" data-magnetic>
+              <span class="btn-x__text">Visit GitHub Profile</span><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="projects__progress" aria-hidden="true">
+          <span class="mono" id="projectsCount">01 / 05</span>
+          <span class="projects__progress-bar"><span id="projectsBar"></span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DEVELOPMENT WORLD — TERMINAL + ID CARD ============ -->
+  <section class="section devworld" id="devworld" data-nav="projects" aria-labelledby="devworldTitle">
+    <div class="container-xl">
+      <div class="devworld__stage" data-scroll-expand>
+        <div class="row gx-lg-5 gy-5 align-items-center">
+          <div class="col-lg-4 order-2 order-lg-1">
+            <div class="id-card-wrap" data-reveal="left">
+              <article class="id-card" id="idCard" aria-label="Developer identity card">
+                <span class="id-card__holo" aria-hidden="true"></span>
+                <div class="id-card__top">
+                  <svg class="id-card__mark" aria-hidden="true"><use href="#mark-ar"/></svg>
+                  <span class="mono">DEVELOPER ID</span>
+                  <span class="id-card__chip" aria-hidden="true"></span>
+                </div>
+                <div class="id-card__identity">
+                  <div class="id-card__photo">
+                    <picture>
+                      <source type="image/webp" srcset="assets/images/abimanyu-id-240.webp">
+                      <img src="assets/images/abimanyu-id-240.jpg" width="240" height="294" alt="Headshot of Abimanyu R" loading="lazy" decoding="async">
+                    </picture>
+                  </div>
+                  <div>
+                    <h3 class="id-card__name">Abimanyu R</h3>
+                    <p class="id-card__role">Full Stack Developer</p>
+                    <p class="id-card__role">Technical Trainer</p>
+                  </div>
+                </div>
+                <dl class="id-card__fields">
+                  <div><dt>Location</dt><dd>Coimbatore, India</dd></div>
+                  <div><dt>GitHub</dt><dd><a href="https://github.com/Abimanyu-Ravichandran7" target="_blank" rel="noopener">Abimanyu-Ravichandran7</a></dd></div>
+                  <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/abimanyu-ravichandran" target="_blank" rel="noopener">abimanyu-ravichandran</a></dd></div>
+                  <div><dt>Email</dt><dd><a href="mailto:abimanyuravichandran003@gmail.com">abimanyuravichandran003@gmail.com</a></dd></div>
+                </dl>
+                <div class="id-card__foot" aria-hidden="true">
+                  <span class="id-card__barcode"></span>
+                  <span class="mono">AR · BUILD · TEACH</span>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="col-lg-8 order-1 order-lg-2">
+            <div class="section-head" data-reveal><span class="section-head__idx">06</span><span class="section-head__bar"></span><span data-decrypt>Developer terminal</span></div>
+            <h2 class="section-title section-title--md" id="devworldTitle"><span data-split>Inside my</span> <span class="text-gradient" data-reveal="clip" style="--d:250ms">development world.</span></h2>
+
+            <div class="terminal" id="devTerminal" data-reveal>
+              <div class="terminal__bar">
+                <span class="terminal__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+                <span class="terminal__title mono">abimanyu@portfolio: ~</span>
+                <span class="terminal__badge mono" aria-hidden="true">read-only shell</span>
+              </div>
+              <div class="terminal__screen mono" id="terminalScreen" role="log" aria-live="polite" aria-label="Terminal output" tabindex="0"></div>
+              <form class="terminal__input mono" id="terminalForm" autocomplete="off">
+                <label for="terminalInput" class="terminal__prompt"><span>abimanyu</span>@portfolio:~$</label>
+                <input id="terminalInput" type="text" spellcheck="false" autocapitalize="off" placeholder="type a command, e.g. help" aria-describedby="terminalHint" maxlength="40">
+              </form>
+              <div class="terminal__chips" role="group" aria-label="Run a predefined command">
+                <button type="button" data-cmd="whoami">whoami</button>
+                <button type="button" data-cmd="role">role</button>
+                <button type="button" data-cmd="technologies">technologies</button>
+                <button type="button" data-cmd="focus">focus</button>
+                <button type="button" data-cmd="experience">experience</button>
+                <button type="button" data-cmd="projects">projects</button>
+                <button type="button" data-cmd="education">education</button>
+                <button type="button" data-cmd="contact">contact</button>
+                <button type="button" data-cmd="status">status</button>
+                <button type="button" data-cmd="help">help</button>
+                <button type="button" data-cmd="clear">clear</button>
+              </div>
+              <p class="visually-hidden" id="terminalHint">Only predefined commands are supported. Type help to list them.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section education" id="education" data-nav="education" aria-labelledby="educationTitle">
+    <span class="geo geo--ring geo--ring-2" aria-hidden="true" data-parallax="0.08"></span>
+    <div class="container-xl">
+      <div class="section-head" data-reveal><span class="section-head__idx">07</span><span class="section-head__bar"></span><span data-decrypt>Education</span></div>
+      <h2 class="section-title" id="educationTitle"><span data-split>Academic</span> <span class="text-gradient" data-reveal="clip" style="--d:250ms">foundation.</span></h2>
+
+      <div class="edu-grid">
+        <div data-reveal>
+          <article class="edu-card" data-spotlight>
+            <span class="edu-card__node" aria-hidden="true"></span>
+            <div class="edu-card__head">
+              <span class="edu-card__icon" aria-hidden="true"><i class="bi bi-mortarboard"></i></span>
+              <span class="edu-card__period mono"><time datetime="2020">2020</time> — <time datetime="2023">2023</time></span>
+            </div>
+            <span class="edu-card__kicker mono">Education</span>
+            <h3>Bachelor of Computer Technology</h3>
+            <p class="edu-card__org">Gobi Arts &amp; Science College</p>
+            <p class="edu-card__loc"><i class="bi bi-geo-alt" aria-hidden="true"></i> Gobichettipalayam</p>
+            <div class="edu-card__stat">
+              <span class="mono">Percentage</span>
+              <b><span data-count="59">59</span>%</b>
+            </div>
+          </article>
+        </div>
+        <div data-reveal style="--d:120ms">
+          <article class="edu-card" data-spotlight>
+            <span class="edu-card__node" aria-hidden="true"></span>
+            <div class="edu-card__head">
+              <span class="edu-card__icon edu-card__icon--cert" aria-hidden="true"><i class="bi bi-patch-check"></i></span>
+              <span class="edu-card__period mono"><time datetime="2023">2023</time></span>
+            </div>
+            <span class="edu-card__kicker mono">Certification</span>
+            <h3>Full Stack Python Developer</h3>
+            <p class="edu-card__org">Indra Institute of Education</p>
+            <p class="edu-card__loc"><i class="bi bi-geo-alt" aria-hidden="true"></i> Coimbatore</p>
+            <div class="edu-card__stat">
+              <span class="mono">Status</span>
+              <b class="edu-card__certified"><i class="bi bi-check2-circle" aria-hidden="true"></i> Certified</b>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact" id="contact" data-nav="contact" aria-labelledby="contactTitle">
+    <div class="contact__glow" aria-hidden="true"></div>
+    <div class="container-xl">
+      <div class="section-head" data-reveal><span class="section-head__idx">08</span><span class="section-head__bar"></span><span data-decrypt>Contact</span></div>
+      <h2 class="contact__title" id="contactTitle"><span data-split>Let's build</span> <span class="is-outline" data-split data-split-delay="200">something</span> <span class="text-gradient" data-reveal="clip" style="--d:450ms">great.</span></h2>
+      <p class="section-lead contact__lead" data-reveal>Have an interesting idea, development opportunity, or technical collaboration in mind? Let's connect and create something meaningful.</p>
+
+      <div class="row gx-lg-5 gy-5 mt-2">
+        <div class="col-lg-5">
+          <ul class="contact-list">
+            <li data-reveal>
+              <div class="contact-item contact-item--email" data-spotlight>
+                <span class="contact-item__icon" aria-hidden="true"><i class="bi bi-envelope"></i></span>
+                <div class="contact-item__body">
+                  <span class="mono">Email</span>
+                  <a href="mailto:abimanyuravichandran003@gmail.com">abimanyuravichandran003@gmail.com</a>
+                </div>
+                <button type="button" class="contact-item__copy" id="copyEmail" data-copy="abimanyuravichandran003@gmail.com" aria-label="Copy email address">
+                  <i class="bi bi-clipboard" aria-hidden="true"></i>
+                </button>
+              </div>
+            </li>
+            <li data-reveal style="--d:80ms">
+              <a class="contact-item" href="tel:+919360810347" data-spotlight>
+                <span class="contact-item__icon" aria-hidden="true"><i class="bi bi-telephone"></i></span>
+                <div class="contact-item__body"><span class="mono">Phone</span><span class="contact-item__value">+91 9360810347</span></div>
+                <i class="bi bi-arrow-up-right contact-item__arrow" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li data-reveal style="--d:160ms">
+              <a class="contact-item" href="https://github.com/Abimanyu-Ravichandran7" target="_blank" rel="noopener" data-spotlight>
+                <span class="contact-item__icon" aria-hidden="true"><i class="bi bi-github"></i></span>
+                <div class="contact-item__body"><span class="mono">GitHub</span><span class="contact-item__value">Abimanyu-Ravichandran7</span></div>
+                <i class="bi bi-arrow-up-right contact-item__arrow" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li data-reveal style="--d:240ms">
+              <a class="contact-item" href="https://www.linkedin.com/in/abimanyu-ravichandran" target="_blank" rel="noopener" data-spotlight>
+                <span class="contact-item__icon" aria-hidden="true"><i class="bi bi-linkedin"></i></span>
+                <div class="contact-item__body"><span class="mono">LinkedIn</span><span class="contact-item__value">abimanyu-ravichandran</span></div>
+                <i class="bi bi-arrow-up-right contact-item__arrow" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li data-reveal style="--d:320ms">
+              <div class="contact-item contact-item--static">
+                <span class="contact-item__icon" aria-hidden="true"><i class="bi bi-geo-alt"></i></span>
+                <div class="contact-item__body"><span class="mono">Location</span><span class="contact-item__value">Coimbatore, Tamil Nadu, India</span></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-7">
+          <form class="contact-form" id="contactForm" novalidate data-reveal>
+            <div class="contact-form__head">
+              <span class="mono"><i class="bi bi-send" aria-hidden="true"></i> new_message.txt</span>
+              <span class="contact-form__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            </div>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="form-floating field">
+                  <input type="text" class="form-control" id="cfName" name="name" placeholder="Full Name" autocomplete="name" required minlength="2" maxlength="80" aria-describedby="cfNameErr">
+                  <label for="cfName">Full Name</label>
+                  <div class="invalid-feedback" id="cfNameErr"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-floating field">
+                  <input type="email" class="form-control" id="cfEmail" name="email" placeholder="Email Address" autocomplete="email" required maxlength="120" aria-describedby="cfEmailErr">
+                  <label for="cfEmail">Email Address</label>
+                  <div class="invalid-feedback" id="cfEmailErr"></div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-floating field">
+                  <input type="text" class="form-control" id="cfSubject" name="subject" placeholder="Subject" required minlength="3" maxlength="120" aria-describedby="cfSubjectErr">
+                  <label for="cfSubject">Subject</label>
+                  <div class="invalid-feedback" id="cfSubjectErr"></div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-floating field">
+                  <textarea class="form-control" id="cfMessage" name="message" placeholder="Message" required minlength="10" maxlength="2000" aria-describedby="cfMessageErr"></textarea>
+                  <label for="cfMessage">Message</label>
+                  <div class="invalid-feedback" id="cfMessageErr"></div>
+                </div>
+              </div>
+              <!-- Honeypot field: hidden from people, catches bots -->
+              <div class="hp-field" aria-hidden="true">
+                <label for="cfWebsite">Website</label>
+                <input type="text" id="cfWebsite" name="_gotcha" tabindex="-1" autocomplete="off">
+              </div>
+            </div>
+            <div class="contact-form__foot">
+              <p class="contact-form__note" id="formNote"><i class="bi bi-info-circle" aria-hidden="true"></i> <span>Opens your email app with your message ready to send.</span></p>
+              <button type="submit" class="btn-x btn-x--primary btn-x--submit" id="cfSubmit" data-magnetic>
+                <span class="btn-x__text">Send Message</span>
+                <span class="btn-x__icon"><i class="bi bi-send" aria-hidden="true"></i></span>
+                <span class="btn-x__spinner" aria-hidden="true"></span>
+              </button>
+            </div>
+            <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container-xl">
+    <div class="footer__top">
+      <div>
+        <p class="footer__word" aria-label="Abimanyu R">ABIMANYU <span>R</span></p>
+        <p class="footer__tag">Turning ideas into digital experiences.</p>
+      </div>
+      <button type="button" class="footer__top-btn" data-scroll-top data-magnetic aria-label="Back to top">
+        <i class="bi bi-arrow-up" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div class="footer__sep" aria-hidden="true"><span></span></div>
+    <div class="footer__bottom">
+      <nav aria-label="Footer">
+        <ul class="footer__links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <ul class="footer__social">
+        <li><a href="https://github.com/Abimanyu-Ravichandran7" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i> GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/abimanyu-ravichandran" target="_blank" rel="noopener"><i class="bi bi-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        <li><a href="mailto:abimanyuravichandran003@gmail.com"><i class="bi bi-envelope" aria-hidden="true"></i> Email</a></li>
+      </ul>
+    </div>
+    <p class="footer__copy mono">© <span id="year">2026</span> Abimanyu R. All rights reserved. <span aria-hidden="true">·</span> Coimbatore, India</p>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button type="button" class="to-top" id="toTop" data-scroll-top aria-label="Back to top">
+  <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22" pathLength="100"/><circle class="to-top__ring" id="toTopRing" cx="24" cy="24" r="22" pathLength="100"/></svg>
+  <i class="bi bi-arrow-up" aria-hidden="true"></i>
+</button>
+
+<!-- Toast -->
+<div class="toast-container position-fixed bottom-0 start-50 translate-middle-x p-3">
+  <div class="toast app-toast" id="appToast" role="status" aria-live="polite" aria-atomic="true" data-bs-delay="2600">
+    <div class="toast-body"><i class="bi bi-check2-circle" aria-hidden="true"></i><span id="toastText">Done</span></div>
+  </div>
+</div>
+
+<!-- ============ PROJECT SPOTLIGHT MODALS ============ -->
+<!-- 01 — Qaroo India platform -->
+<div class="modal fade project-modal" id="projectModal1" tabindex="-1" aria-labelledby="pm1Title" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <span class="mono project-modal__kicker">Project 01 · Full-stack platform · Live</span>
+          <h3 class="modal-title" id="pm1Title">Qaroo India — CMS-Driven Web Platform</h3>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4 class="project-modal__h">Overview</h4>
+        <p>A full-stack, CMS-driven web application for Qaroo India Private Limited. It turns the React + Vite public site into a content-managed platform backed by a new Node.js, Express and MongoDB API, so the site's pages, MOU directory, CSR projects and learning programs are all edited from an admin dashboard at <code>/admin</code>.</p>
+        <p>Admins sign in with JWT access and refresh tokens stored in HTTP-only cookies, verify their email, and need Super Admin approval before they can act. Every change is guarded by granular, role-based permissions, while public visitors only ever see published content.</p>
+
+        <h4 class="project-modal__h">Key features</h4>
+        <ul class="feature-grid">
+          <li><i class="bi bi-window-sidebar" aria-hidden="true"></i>Public site powered by the CMS</li>
+          <li><i class="bi bi-speedometer2" aria-hidden="true"></i>Admin dashboard with overview stats</li>
+          <li><i class="bi bi-file-earmark-text" aria-hidden="true"></i>Editable page content</li>
+          <li><i class="bi bi-journal-bookmark" aria-hidden="true"></i>MOU directory management</li>
+          <li><i class="bi bi-heart" aria-hidden="true"></i>CSR project management</li>
+          <li><i class="bi bi-mortarboard" aria-hidden="true"></i>Learning program management</li>
+          <li><i class="bi bi-inbox" aria-hidden="true"></i>Contact message inbox</li>
+          <li><i class="bi bi-shield-lock" aria-hidden="true"></i>Granular role-based permissions</li>
+          <li><i class="bi bi-person-check" aria-hidden="true"></i>Super Admin approval workflow</li>
+          <li><i class="bi bi-key" aria-hidden="true"></i>JWT auth in HTTP-only cookies</li>
+          <li><i class="bi bi-envelope-check" aria-hidden="true"></i>Email verification &amp; password reset</li>
+          <li><i class="bi bi-images" aria-hidden="true"></i>Cloudinary image uploads</li>
+          <li><i class="bi bi-speedometer" aria-hidden="true"></i>API rate limiting</li>
+          <li><i class="bi bi-bug" aria-hidden="true"></i>Frontend crash reporting</li>
+          <li><i class="bi bi-ui-checks" aria-hidden="true"></i>End-to-end API test suite</li>
+        </ul>
+
+        <h4 class="project-modal__h">Technology</h4>
+        <ul class="tech-badges"><li>React 18</li><li>Vite</li><li>React Router</li><li>React Bootstrap</li><li>GSAP</li><li>Node.js</li><li>Express</li><li>MongoDB</li><li>Mongoose</li><li>JWT</li><li>bcrypt</li><li>Nodemailer</li><li>Cloudinary</li></ul>
+
+        <div class="project-modal__links">
+          <p><i class="bi bi-broadcast" aria-hidden="true"></i> Live and deployed on Vercel. Source code is public on GitHub.</p>
+          <div class="project-modal__btns">
+            <a href="https://qaroo-india-pvt-ltd.vercel.app" target="_blank" rel="noopener" class="btn-x btn-x--primary btn-x--sm"><span class="btn-x__text">Live Site</span><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a>
+            <a href="https://github.com/Abimanyu-Ravichandran7/QAROO-INDIA-PVT-LTD" target="_blank" rel="noopener" class="btn-x btn-x--outline btn-x--sm"><i class="bi bi-github" aria-hidden="true"></i><span class="btn-x__text">Source Code</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 02 — Institute OS -->
+<div class="modal fade project-modal" id="projectModal2" tabindex="-1" aria-labelledby="pm2Title" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <span class="mono project-modal__kicker">Project 02 · Full-stack platform · TypeScript</span>
+          <h3 class="modal-title" id="pm2Title">Institute OS — Institute Management &amp; Placement Platform</h3>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4 class="project-modal__h">Overview</h4>
+        <p>A course-institute management, business-intelligence and placement platform that covers the full student lifecycle: enquiries with source tracking, admissions, fees and receipts, batches and trainers, classes, attendance, online exams, study material and certificates, through to technical and non-technical placement.</p>
+        <p>The side navigation follows the login — owner/admin, counsellor, office staff, faculty or student — and each role gets its own permissions, menu and home page. It is a TypeScript monorepo (shared, server and client workspaces) with a 34-table SQLite schema managed by Drizzle ORM and integration tests that run against an in-memory database.</p>
+
+        <h4 class="project-modal__h">Key features</h4>
+        <ul class="feature-grid">
+          <li><i class="bi bi-funnel" aria-hidden="true"></i>Leads with source &amp; campaign tracking</li>
+          <li><i class="bi bi-kanban" aria-hidden="true"></i>Kanban pipeline &amp; follow-up calendar</li>
+          <li><i class="bi bi-person-check" aria-hidden="true"></i>Admissions with flexible fee plans</li>
+          <li><i class="bi bi-receipt" aria-hidden="true"></i>Fee ledger, PDF receipts &amp; refunds</li>
+          <li><i class="bi bi-people" aria-hidden="true"></i>Batches, trainers &amp; transfers</li>
+          <li><i class="bi bi-calendar-week" aria-hidden="true"></i>Class schedule with clash checks</li>
+          <li><i class="bi bi-calendar2-check" aria-hidden="true"></i>Attendance registers</li>
+          <li><i class="bi bi-ui-checks" aria-hidden="true"></i>Online exams graded on the server</li>
+          <li><i class="bi bi-patch-check" aria-hidden="true"></i>Certificates with public verification</li>
+          <li><i class="bi bi-person-workspace" aria-hidden="true"></i>Student portal &amp; faculty workspace</li>
+          <li><i class="bi bi-briefcase" aria-hidden="true"></i>Placement drives, interviews &amp; offers</li>
+          <li><i class="bi bi-box-seam" aria-hidden="true"></i>Leave, tasks &amp; asset inventory</li>
+          <li><i class="bi bi-bar-chart-line" aria-hidden="true"></i>KPI dashboards with drill-down</li>
+          <li><i class="bi bi-file-earmark-spreadsheet" aria-hidden="true"></i>PDF/Excel reports &amp; scheduled email</li>
+          <li><i class="bi bi-shield-check" aria-hidden="true"></i>Staff permissions &amp; audit trail</li>
+        </ul>
+
+        <h4 class="project-modal__h">Technology</h4>
+        <ul class="tech-badges"><li>React 19</li><li>TypeScript</li><li>Vite</li><li>Tailwind CSS</li><li>TanStack Query</li><li>Recharts</li><li>Express 5</li><li>SQLite</li><li>Drizzle ORM</li><li>Zod</li><li>Vitest</li><li>PDFKit</li><li>ExcelJS</li></ul>
+
+        <div class="project-modal__links">
+          <p><i class="bi bi-info-circle" aria-hidden="true"></i> Built and verified locally (type-check, tests and production build). Not deployed yet — the source is on GitHub.</p>
+          <div class="project-modal__btns">
+            <a href="https://github.com/Abimanyu-Ravichandran7/Institute_OS" target="_blank" rel="noopener" class="btn-x btn-x--outline btn-x--sm"><i class="bi bi-github" aria-hidden="true"></i><span class="btn-x__text">Source Code</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 03 — StockMaster -->
+<div class="modal fade project-modal" id="projectModal3" tabindex="-1" aria-labelledby="pm3Title" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <span class="mono project-modal__kicker">Project 03 · Full-stack app · React + Django</span>
+          <h3 class="modal-title" id="pm3Title">StockMaster — Online Product Inventory &amp; Order Tracker</h3>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4 class="project-modal__h">Overview</h4>
+        <p>A full-stack inventory and order-tracking system with a dark-themed React frontend and a Django REST Framework backend. Admins manage products, categories and orders from a live dashboard; customers browse products, build a cart, place orders and follow each order's progress.</p>
+        <p>Authentication uses JWT access and refresh tokens, with an Axios interceptor that renews the session silently on a 401. Placing an order automatically deducts stock, and admin-only endpoints are protected by role.</p>
+
+        <h4 class="project-modal__h">Key features</h4>
+        <ul class="feature-grid">
+          <li><i class="bi bi-key" aria-hidden="true"></i>JWT auth with auto-refresh</li>
+          <li><i class="bi bi-speedometer2" aria-hidden="true"></i>Admin dashboard with live stats</li>
+          <li><i class="bi bi-exclamation-triangle" aria-hidden="true"></i>Low-stock alerts &amp; recent orders</li>
+          <li><i class="bi bi-table" aria-hidden="true"></i>Searchable, paginated product table</li>
+          <li><i class="bi bi-image" aria-hidden="true"></i>Product images &amp; stock badges</li>
+          <li><i class="bi bi-diagram-3" aria-hidden="true"></i>Category hierarchy (parent/child)</li>
+          <li><i class="bi bi-list-check" aria-hidden="true"></i>Admin order status updates</li>
+          <li><i class="bi bi-cart3" aria-hidden="true"></i>Customer cart with live totals</li>
+          <li><i class="bi bi-box-seam" aria-hidden="true"></i>Stock deducted on order</li>
+          <li><i class="bi bi-truck" aria-hidden="true"></i>Step-by-step order tracker</li>
+          <li><i class="bi bi-hdd-network" aria-hidden="true"></i>Role-protected REST API</li>
+          <li><i class="bi bi-phone" aria-hidden="true"></i>Responsive grid layouts</li>
+        </ul>
+
+        <h4 class="project-modal__h">Technology</h4>
+        <ul class="tech-badges"><li>React 18</li><li>Vite</li><li>Tailwind CSS</li><li>Axios</li><li>Django REST Framework</li><li>Python</li><li>SQLite (dev)</li><li>MySQL (prod)</li><li>JWT</li></ul>
+
+        <div class="project-modal__links">
+          <p><i class="bi bi-info-circle" aria-hidden="true"></i> Runs locally (Django API + Vite frontend). Source code is on GitHub.</p>
+          <div class="project-modal__btns">
+            <a href="https://github.com/Abimanyu-Ravichandran7/product-inventory" target="_blank" rel="noopener" class="btn-x btn-x--outline btn-x--sm"><i class="bi bi-github" aria-hidden="true"></i><span class="btn-x__text">Source Code</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 04 — CRM -->
+<div class="modal fade project-modal" id="projectModal4" tabindex="-1" aria-labelledby="pm4Title" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <span class="mono project-modal__kicker">Project 04 · Internal project</span>
+          <h3 class="modal-title" id="pm4Title">CRM Web Application</h3>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4 class="project-modal__h">Overview</h4>
+        <p>A comprehensive CRM web application for an institute offering supplementary and skill-based education. It brings enrollment, staffing, attendance, testing, syllabus and task workflows into one place, with intuitive dashboards that simplify daily academic and administrative processes.</p>
+        <p>Data lives in a structured MySQL database for secure, reliable storage and retrieval of student records, staff details, attendance logs, test results and task updates. Personalized student and staff profiles use role-based access control, giving admin, staff and student users different permissions. Backend APIs connect the front end to the database for the enrollment, attendance and task modules.</p>
+
+        <h4 class="project-modal__h">Key features</h4>
+        <ul class="feature-grid">
+          <li><i class="bi bi-person-plus" aria-hidden="true"></i>Student Enrollment</li>
+          <li><i class="bi bi-person-badge" aria-hidden="true"></i>Staff Assignment</li>
+          <li><i class="bi bi-calendar-check" aria-hidden="true"></i>Attendance Tracking</li>
+          <li><i class="bi bi-clipboard-check" aria-hidden="true"></i>Internal Tests</li>
+          <li><i class="bi bi-award" aria-hidden="true"></i>Placement Tests</li>
+          <li><i class="bi bi-journal-text" aria-hidden="true"></i>Syllabus Submission</li>
+          <li><i class="bi bi-list-task" aria-hidden="true"></i>Student Task Management</li>
+          <li><i class="bi bi-list-check" aria-hidden="true"></i>Staff Task Management</li>
+          <li><i class="bi bi-speedometer2" aria-hidden="true"></i>Student &amp; Staff Dashboards</li>
+          <li><i class="bi bi-person-circle" aria-hidden="true"></i>Personalized Profiles</li>
+          <li><i class="bi bi-shield-lock" aria-hidden="true"></i>Role-Based Access Control</li>
+          <li><i class="bi bi-hdd-network" aria-hidden="true"></i>Backend API Integration</li>
+          <li><i class="bi bi-database" aria-hidden="true"></i>Structured MySQL Database</li>
+        </ul>
+
+        <h4 class="project-modal__h">Technology</h4>
+        <ul class="tech-badges"><li>Python</li><li>JavaScript</li><li>HTML</li><li>CSS</li><li>Bootstrap</li><li>MySQL</li><li>REST APIs</li></ul>
+
+        <div class="project-modal__links">
+          <p><i class="bi bi-info-circle" aria-hidden="true"></i> Source code is published on GitHub as a zipped archive.</p>
+          <div class="project-modal__btns">
+            <a href="https://github.com/Abimanyu-Ravichandran7/CRM-Customer-Relationship-Management-" target="_blank" rel="noopener" class="btn-x btn-x--outline btn-x--sm"><i class="bi bi-github" aria-hidden="true"></i><span class="btn-x__text">Source Code</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 05 — BMW showroom ERP -->
+<div class="modal fade project-modal" id="projectModal5" tabindex="-1" aria-labelledby="pm5Title" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <span class="mono project-modal__kicker">Project 05 · Internal project</span>
+          <h3 class="modal-title" id="pm5Title">ERP Web Application — BMW Car Showroom</h3>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4 class="project-modal__h">Overview</h4>
+        <p>A modern and responsive BMW showroom website showcasing vehicle models, specifications, pricing and interactive customer services. Dynamic modules handle customer inquiries, test-drive bookings and car comparison.</p>
+        <p>Behind the showroom sits an ERP back office: separate admin and employee portals for staff records, leave, salary and inventory. The application is written as Python CGI scripts that use PyMySQL to store and cross-check vehicle data, bookings and staff records in MySQL.</p>
+
+        <h4 class="project-modal__h">Key features</h4>
+        <ul class="feature-grid">
+          <li><i class="bi bi-car-front" aria-hidden="true"></i>Vehicle Model Showcase</li>
+          <li><i class="bi bi-sliders" aria-hidden="true"></i>Specifications &amp; Pricing</li>
+          <li><i class="bi bi-layout-split" aria-hidden="true"></i>Car Comparison</li>
+          <li><i class="bi bi-chat-dots" aria-hidden="true"></i>Customer Inquiries</li>
+          <li><i class="bi bi-calendar-event" aria-hidden="true"></i>Test Drive Booking</li>
+          <li><i class="bi bi-person-lines-fill" aria-hidden="true"></i>Customer Registration &amp; Login</li>
+          <li><i class="bi bi-speedometer2" aria-hidden="true"></i>Admin Dashboard</li>
+          <li><i class="bi bi-people" aria-hidden="true"></i>Employee Records (add, view, edit)</li>
+          <li><i class="bi bi-calendar2-x" aria-hidden="true"></i>Leave Requests &amp; Review</li>
+          <li><i class="bi bi-cash-stack" aria-hidden="true"></i>Salary Calculation &amp; Records</li>
+          <li><i class="bi bi-box-seam" aria-hidden="true"></i>Inventory Forms &amp; Status</li>
+          <li><i class="bi bi-person-badge" aria-hidden="true"></i>Employee Dashboard &amp; Profile</li>
+          <li><i class="bi bi-database" aria-hidden="true"></i>MySQL Database Integration</li>
+        </ul>
+
+        <h4 class="project-modal__h">Technology</h4>
+        <ul class="tech-badges"><li>Python (CGI)</li><li>PyMySQL</li><li>MySQL</li><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+
+        <div class="project-modal__links">
+          <p><i class="bi bi-info-circle" aria-hidden="true"></i> Source code is on GitHub.</p>
+          <div class="project-modal__btns">
+            <a href="https://github.com/Abimanyu-Ravichandran7/ERP-WEB-APPLICATION-BMW-car-showroom-" target="_blank" rel="noopener" class="btn-x btn-x--outline btn-x--sm"><i class="bi bi-github" aria-hidden="true"></i><span class="btn-x__text">Source Code</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

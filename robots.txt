@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abimanyu-ravichandran.vercel.app/sitemap.xml

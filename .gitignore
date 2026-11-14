@@ -1,0 +1,13 @@
+# Original source files — kept on this PC, never published
+# (the website uses the optimized copies in assets/)
+WhatsApp Image *.jpeg
+Abimanyu_Studio_Portrait.png
+*.docx
+~$*
+
+# System / editor files
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.vercel/
