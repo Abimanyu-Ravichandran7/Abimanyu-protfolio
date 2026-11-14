@@ -1,0 +1,10 @@
+# Never upload the original source files — the site uses the optimized copies in assets/
+WhatsApp Image *.jpeg
+Abimanyu_Studio_Portrait.png
+*.docx
+~$*
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode
+.git
